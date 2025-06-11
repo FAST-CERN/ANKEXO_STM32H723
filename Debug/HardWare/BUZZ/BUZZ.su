@@ -1,0 +1,4 @@
+../HardWare/BUZZ/BUZZ.c:11:6:Set_BUZZ_PWM_Frequency	24	static
+../HardWare/BUZZ/BUZZ.c:23:6:Set_BUZZ_PWM_Duty	24	static
+../HardWare/BUZZ/BUZZ.c:35:6:Start_BUZZ	8	static
+../HardWare/BUZZ/BUZZ.c:40:6:Stop_BUZZ	8	static

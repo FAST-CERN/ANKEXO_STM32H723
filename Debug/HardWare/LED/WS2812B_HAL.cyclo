@@ -1,0 +1,4 @@
+../HardWare/LED/WS2812B_HAL.c:10:6:Set_LED	6
+../HardWare/LED/WS2812B_HAL.c:23:6:Set_LED_HEX	3
+../HardWare/LED/WS2812B_HAL.c:36:6:Set_Brightness	4
+../HardWare/LED/WS2812B_HAL.c:52:6:WS2812_Send	5

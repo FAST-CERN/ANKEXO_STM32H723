@@ -1,0 +1,2 @@
+../HardWare/EPOS/sdo.c:14:6:SDO_Write	64	static
+../HardWare/EPOS/sdo.c:129:8:SDO_Read	64	static

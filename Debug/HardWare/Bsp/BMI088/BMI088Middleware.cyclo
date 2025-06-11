@@ -1,0 +1,9 @@
+../HardWare/Bsp/BMI088/BMI088Middleware.c:16:6:BMI088_GPIO_init	1
+../HardWare/Bsp/BMI088/BMI088Middleware.c:28:6:BMI088_com_init	1
+../HardWare/Bsp/BMI088/BMI088Middleware.c:41:6:BMI088_delay_ms	2
+../HardWare/Bsp/BMI088/BMI088Middleware.c:56:6:BMI088_delay_us	2
+../HardWare/Bsp/BMI088/BMI088Middleware.c:102:6:BMI088_ACCEL_NS_L	1
+../HardWare/Bsp/BMI088/BMI088Middleware.c:114:6:BMI088_ACCEL_NS_H	1
+../HardWare/Bsp/BMI088/BMI088Middleware.c:126:6:BMI088_GYRO_NS_L	1
+../HardWare/Bsp/BMI088/BMI088Middleware.c:138:6:BMI088_GYRO_NS_H	1
+../HardWare/Bsp/BMI088/BMI088Middleware.c:150:9:BMI088_read_write_byte	1

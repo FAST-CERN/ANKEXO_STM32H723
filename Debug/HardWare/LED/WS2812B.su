@@ -1,0 +1,9 @@
+../HardWare/LED/WS2812B.c:19:6:Delay_850nS	4	static,ignoring_inline_asm
+../HardWare/LED/WS2812B.c:34:6:Delay_300uS	16	static,ignoring_inline_asm
+../HardWare/LED/WS2812B.c:50:6:WS2812B_Reset	8	static
+../HardWare/LED/WS2812B.c:63:6:WS2812B_WriteByte	24	static,ignoring_inline_asm
+../HardWare/LED/WS2812B.c:95:6:WS2812B_WriteColor	16	static
+../HardWare/LED/WS2812B.c:109:6:WS2812B_RefreshPixel	16	static
+../HardWare/LED/WS2812B.c:120:6:Copy_Color	16	static
+../HardWare/LED/WS2812B.c:134:6:WS2812B_FillColor	24	static
+../HardWare/LED/WS2812B.c:162:6:WS2812B_MovePixel	24	static

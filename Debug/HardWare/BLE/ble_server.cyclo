@@ -1,0 +1,13 @@
+../HardWare/BLE/ble_server.c:27:6:UART6_SendData	3
+../HardWare/BLE/ble_server.c:43:6:UART6_StartReceive	1
+../HardWare/BLE/ble_server.c:50:7:findCommand	1
+../HardWare/BLE/ble_server.c:522:13:handle_motor_velocity_command	18
+../HardWare/BLE/ble_server.c:593:13:handle_motor_position_command	18
+../HardWare/BLE/ble_server.c:664:13:handle_motor_torque_command	18
+../HardWare/BLE/ble_server.c:735:13:handle_motor_acceleration_command	6
+../HardWare/BLE/ble_server.c:760:13:handle_motor_deceleration_command	6
+../HardWare/BLE/ble_server.c:785:13:handle_motor_zero_command	6
+../HardWare/BLE/ble_server.c:808:13:handle_data_transmission_command	11
+../HardWare/BLE/ble_server.c:891:13:handle_ble_status_command	5
+../HardWare/BLE/ble_server.c:911:6:ble_handle_command	17
+../HardWare/BLE/ble_server.c:979:6:ble_command_progress	4

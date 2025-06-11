@@ -1,0 +1,6 @@
+../HardWare/EPOS/epos.c:9:6:Epos_ParamInit	1
+../HardWare/EPOS/epos.c:37:6:Epos_Init	1
+../HardWare/EPOS/epos.c:60:6:Epos_setMode	10
+../HardWare/EPOS/epos.c:152:6:Epos_OperEn	1
+../HardWare/EPOS/epos.c:165:6:Epos_ClorEn	1
+../HardWare/EPOS/epos.c:171:6:Epos_Delay	1

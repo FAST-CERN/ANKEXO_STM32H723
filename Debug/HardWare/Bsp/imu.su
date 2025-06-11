@@ -1,0 +1,2 @@
+../HardWare/Bsp/imu.c:13:6:IMU_INIT	16	static
+../HardWare/Bsp/imu.c:42:6:IMU_LOOP	4	static
