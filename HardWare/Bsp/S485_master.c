@@ -16,6 +16,11 @@ RS485_State rs485_sensor_2 = {0};
 /* 定时器句柄，用于100Hz的数据采集 */
 osTimerId_t rs485DataTimerId;
 
+
+/*自动采集标志位*/
+uint8_t RS4815_1_AUTO_SEND_DATA = 0;
+uint8_t RS4815_2_AUTO_SEND_DATA = 0;
+
 /**
  * @brief 初始化RS485主机通信
  */
@@ -303,6 +308,29 @@ void ProcessResponse(RS485_State *state) {
 
             break;
         }
+        case CMD_GET_ANGLE: {
+
+            // 解析所有传感器数据
+            RS485_Sensor_Data *sensorData;
+
+            if (state->sensorId == RS485_SENSOR_1) {
+                sensorData = &g_system_state.rs485_sensor_data_1;
+            } else {
+                sensorData = &g_system_state.rs485_sensor_data_2;
+            }
+
+            // 获取互斥量
+            lock_system_state();
+
+            // 角度
+            memcpy(&sensorData->encoder_data.angle, &uartState->RxBuffer[rxIndex], sizeof(float));
+
+            // 释放互斥量
+            unlock_system_state();
+
+            break;
+
+        }
 
         case CMD_GET_ALL_DATA: {
             // 解析所有传感器数据
@@ -322,16 +350,6 @@ void ProcessResponse(RS485_State *state) {
             rxIndex += sizeof(float);
 
             // IMU1数据
-            // 四元数
-            memcpy(&sensorData->imu_data_1.quat.w, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_1.quat.x, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_1.quat.y, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_1.quat.z, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-
             // 加速度
             memcpy(&sensorData->imu_data_1.acc.x, &uartState->RxBuffer[rxIndex], sizeof(float));
             rxIndex += sizeof(float);
@@ -349,16 +367,6 @@ void ProcessResponse(RS485_State *state) {
             rxIndex += sizeof(float);
 
             // IMU2数据
-            // 四元数
-            memcpy(&sensorData->imu_data_2.quat.w, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_2.quat.x, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_2.quat.y, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_2.quat.z, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-
             // 加速度
             memcpy(&sensorData->imu_data_2.acc.x, &uartState->RxBuffer[rxIndex], sizeof(float));
             rxIndex += sizeof(float);
@@ -381,9 +389,82 @@ void ProcessResponse(RS485_State *state) {
             // 释放互斥量
             unlock_system_state();
 
+
+//    		printf("G1:%.3f,%.3f,%.3f;A1:%.3f,%.3f,%.3f;T1:%.2f \t",
+//    				g_system_state.rs485_sensor_data_1.imu_data_1.gyro.x, g_system_state.rs485_sensor_data_1.imu_data_1.gyro.y, g_system_state.rs485_sensor_data_1.imu_data_1.gyro.z,
+//    				g_system_state.rs485_sensor_data_1.imu_data_1.acc.x, g_system_state.rs485_sensor_data_1.imu_data_1.acc.y, g_system_state.rs485_sensor_data_1.imu_data_1.acc.z,
+//    				g_system_state.rs485_sensor_data_1.encoder_data.angle);
+//
+//    		printf("G2:%.3f,%.3f,%.3f;A2:%.3f,%.3f,%.3f;T2:%.2f\r\n",
+//    				g_system_state.rs485_sensor_data_2.imu_data_1.gyro.x, g_system_state.rs485_sensor_data_2.imu_data_1.gyro.y, g_system_state.rs485_sensor_data_2.imu_data_1.gyro.z,
+//    				g_system_state.rs485_sensor_data_2.imu_data_1.acc.x, g_system_state.rs485_sensor_data_2.imu_data_1.acc.y, g_system_state.rs485_sensor_data_2.imu_data_1.acc.z,
+//    				g_system_state.rs485_sensor_data_2.encoder_data.angle);
+
             //printf("GET ALL %d\r\n",state->sensorId);
 
             break;
+        }
+        case CMD_GET_ALL_AUTO_START: {
+        	 // 解析设备状态
+			RS485_Sensor_DeviceStatus *deviceStatus;
+
+			if (state->sensorId == RS485_SENSOR_1) {
+				deviceStatus = &g_device_status.rs485_sensor_devicestatus_1;
+			} else {
+				deviceStatus = &g_device_status.rs485_sensor_devicestatus_2;
+			}
+
+			deviceStatus->imu_1_init = uartState->RxBuffer[rxIndex++];
+			deviceStatus->imu_2_init = uartState->RxBuffer[rxIndex++];
+			deviceStatus->mt6835_cs1_init = uartState->RxBuffer[rxIndex++];
+
+			// 解析错误信息
+			uint8_t errLen = uartState->RxBuffer[rxIndex++];
+			if (errLen > 0) {
+				memcpy(deviceStatus->error_message, &uartState->RxBuffer[rxIndex], errLen);
+				deviceStatus->error_message[errLen] = '\0'; // 添加字符串结束符
+			} else {
+				deviceStatus->error_message[0] = '\0'; // 无错误信息
+			}
+
+			// 更新初始化状态
+			state->initialized = deviceStatus->imu_1_init &&
+								deviceStatus->imu_2_init &&
+								deviceStatus->mt6835_cs1_init;
+
+        	break;
+        }
+
+        case CMD_GET_ALL_AUTO_STOP: {
+        	 // 解析设备状态
+			RS485_Sensor_DeviceStatus *deviceStatus;
+
+			if (state->sensorId == RS485_SENSOR_1) {
+				deviceStatus = &g_device_status.rs485_sensor_devicestatus_1;
+			} else {
+				deviceStatus = &g_device_status.rs485_sensor_devicestatus_2;
+			}
+
+			deviceStatus->imu_1_init = uartState->RxBuffer[rxIndex++];
+			deviceStatus->imu_2_init = uartState->RxBuffer[rxIndex++];
+			deviceStatus->mt6835_cs1_init = uartState->RxBuffer[rxIndex++];
+
+			// 解析错误信息
+			uint8_t errLen = uartState->RxBuffer[rxIndex++];
+			if (errLen > 0) {
+				memcpy(deviceStatus->error_message, &uartState->RxBuffer[rxIndex], errLen);
+				deviceStatus->error_message[errLen] = '\0'; // 添加字符串结束符
+			} else {
+				deviceStatus->error_message[0] = '\0'; // 无错误信息
+			}
+
+			// 更新初始化状态
+			state->initialized = deviceStatus->imu_1_init &&
+								deviceStatus->imu_2_init &&
+								deviceStatus->mt6835_cs1_init;
+
+
+        	break;
         }
 
         default:
@@ -428,6 +509,8 @@ bool RS485_GetAllData(RS485_State *state) {
     return false;
 }
 
+
+
 /**
  * @brief 初始化RS485传感器
  * @return 初始化是否成功
@@ -454,7 +537,11 @@ bool RS485_InitializeSensors(void) {
     if (success && rs485_sensor_1.initialized && rs485_sensor_2.initialized) {
     	printf("Start rs485DataTimerId\r\n");
         // 启动100Hz数据采集定时器
-        osTimerStart(rs485DataTimerId, 10); // 10ms = 100Hz
+         osTimerStart(rs485DataTimerId, 25); // 10ms = 100Hz
+
+    	//RS485_AUTO_SendDataStart(&rs485_sensor_1);
+    	//RS485_AUTO_SendDataStart(&rs485_sensor_2);
+
         return true;
     }
 
@@ -484,6 +571,38 @@ void RS485_DataAcquisitionCallback(void *argument) {
 
 }
 
+
+/**
+ * @brief 下位机自动发送数据开始
+ * @param state RS485状态结构体
+ * @return void
+ */
+void RS485_AUTO_SendDataStart(RS485_State *state) {
+    RS485_SendCommand(state, CMD_GET_ALL_AUTO_START);
+}
+
+/**
+ * @brief 下位机自动发送数据结束
+ * @param state RS485状态结构体
+ * @return void
+ */
+void RS485_AUTO_SendDataStop(RS485_State *state) {
+    RS485_SendCommand(state, CMD_GET_ALL_AUTO_STOP);
+}
+
+
+/**
+ * @brief 自动处理数据函数
+ * @param argument 回调参数
+ */
+void RS485_DataAutoProcess() {
+    // 读取RS485传感器1数据
+	ProcessResponse(&rs485_sensor_1);
+
+    // 读取RS485传感器2数据
+	ProcessResponse(&rs485_sensor_2);
+
+}
 ///**
 // * @brief RS485主机任务函数
 // * @param argument 任务参数

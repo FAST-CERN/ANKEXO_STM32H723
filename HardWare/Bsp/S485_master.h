@@ -12,6 +12,9 @@ extern "C" {
 
 extern osTimerId_t rs485DataTimerId;
 
+extern uint8_t RS4815_1_AUTO_SEND_DATA;
+extern uint8_t RS4815_2_AUTO_SEND_DATA;
+
 /* 定义RS485通信相关宏 */
 #define RS485_TX_BUFFER_SIZE     256
 
@@ -27,6 +30,8 @@ extern osTimerId_t rs485DataTimerId;
 #define CMD_GET_IMU1_ALL         0x09    // 获取IMU1全部数据
 #define CMD_GET_IMU2_ALL         0x0A    // 获取IMU2全部数据
 #define CMD_GET_ALL_DATA         0x0B    // 获取所有传感器数据
+#define CMD_GET_ALL_AUTO_START   0x0C    // 查询设备状态
+#define CMD_GET_ALL_AUTO_STOP    0x0D    // 查询设备状态
 
 /* 定义通信协议帧格式 - 3字节帧头和帧尾 */
 #define FRAME_HEADER_SIZE        3       // 帧头大小
@@ -71,6 +76,13 @@ bool RS485_GetAllData(RS485_State *state);
 bool RS485_InitializeSensors(void);
 void RS485_DataAcquisitionCallback(void *argument);
 void RS485_Master_Task(void *argument);
+
+
+void RS485_DataAutoProcess();
+void RS485_AUTO_SendDataStop(RS485_State *state) ;
+void RS485_AUTO_SendDataStart(RS485_State *state) ;
+
+
 
 #ifdef __cplusplus
 }

@@ -3,5 +3,5 @@
 ../Core/Src/freertos.c:186:6:StartDefaultTask	16	static
 ../Core/Src/freertos.c:204:6:StartLedTask	40	static
 ../Core/Src/freertos.c:249:6:StartMotorTask	16	static
-../Core/Src/freertos.c:276:6:StartIMUTask	48	static
-../Core/Src/freertos.c:329:6:StartS485Task	16	static
+../Core/Src/freertos.c:281:6:StartIMUTask	48	static
+../Core/Src/freertos.c:334:6:StartS485Task	64	static

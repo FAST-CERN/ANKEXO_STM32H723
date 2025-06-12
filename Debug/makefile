@@ -14,6 +14,7 @@ RM := rm -rf
 -include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/subdir.mk
 -include Middlewares/Third_Party/FreeRTOS/Source/subdir.mk
 -include HardWare/LED/subdir.mk
+-include HardWare/FAN/subdir.mk
 -include HardWare/EPOS/subdir.mk
 -include HardWare/Bsp/BMI088/subdir.mk
 -include HardWare/Bsp/subdir.mk

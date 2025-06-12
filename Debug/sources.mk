@@ -47,6 +47,7 @@ HardWare/BUZZ \
 HardWare/Bsp/BMI088 \
 HardWare/Bsp \
 HardWare/EPOS \
+HardWare/FAN \
 HardWare/LED \
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 \
 Middlewares/Third_Party/FreeRTOS/Source \

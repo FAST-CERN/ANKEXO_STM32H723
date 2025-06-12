@@ -34,6 +34,7 @@
 #include "BMI088driver.h"
 #include "stdio.h"
 #include "usart_server.h"
+#include "fan.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -138,6 +139,7 @@ int main(void)
   MX_TIM3_Init();
   MX_ADC1_Init();
   MX_TIM4_Init();
+  MX_TIM15_Init();
   /* USER CODE BEGIN 2 */
   UART6_StartReceive();
   HAL_Delay(1000);
@@ -146,7 +148,7 @@ int main(void)
 
   //  HAL_UART_Receive_IT(&huart1, &ble_rxData, 1);
   HAL_TIM_PWM_Stop_DMA(&htim4,TIM_CHANNEL_3);
-
+  Start_FAN();
   /* USER CODE END 2 */
 
   /* Init scheduler */

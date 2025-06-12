@@ -1,6 +1,6 @@
 ../HardWare/APP/global_param.c:36:6:all_devices_initialized	4	static
 ../HardWare/APP/global_param.c:107:6:init_system_mutex	8	static
-../HardWare/APP/global_param.c:114:6:lock_system_state	8	static
+../HardWare/APP/global_param.c:114:6:lock_system_state	4	static
 ../HardWare/APP/global_param.c:121:6:unlock_system_state	8	static
 ../HardWare/APP/global_param.c:183:13:send_over_usb	16	static
 ../HardWare/APP/global_param.c:190:6:set_usb_transmission	16	static

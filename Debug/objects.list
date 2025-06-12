@@ -56,6 +56,7 @@
 "./HardWare/EPOS/HW_epos.o"
 "./HardWare/EPOS/epos.o"
 "./HardWare/EPOS/sdo.o"
+"./HardWare/FAN/fan.o"
 "./HardWare/LED/WS2812B.o"
 "./HardWare/LED/WS2812B_HAL.o"
 "./Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o"

@@ -49,6 +49,7 @@
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
 									<listOptionValue builtIn="false" value="../HardWare/BLE/"/>
 									<listOptionValue builtIn="false" value="../HardWare/BUZZ/"/>
+									<listOptionValue builtIn="false" value="../HardWare/FAN/"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input.127196314" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input"/>
 							</tool>
@@ -83,6 +84,7 @@
 									<listOptionValue builtIn="false" value="../HardWare/BSP/BMI088/inc/"/>
 									<listOptionValue builtIn="false" value="../HardWare/BLE/"/>
 									<listOptionValue builtIn="false" value="../HardWare/BUZZ/"/>
+									<listOptionValue builtIn="false" value="../HardWare/FAN/"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.416742104" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
@@ -109,6 +111,7 @@
 									<listOptionValue builtIn="false" value="../HardWare/LED/"/>
 									<listOptionValue builtIn="false" value="../HardWare/BLE/"/>
 									<listOptionValue builtIn="false" value="../HardWare/BUZZ/"/>
+									<listOptionValue builtIn="false" value="../HardWare/FAN/"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols.1898297992" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="DEBUG"/>
@@ -196,6 +199,7 @@
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
 									<listOptionValue builtIn="false" value="../HardWare/BLE/"/>
 									<listOptionValue builtIn="false" value="../HardWare/BUZZ/"/>
+									<listOptionValue builtIn="false" value="../HardWare/FAN/"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input.2021961568" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input"/>
 							</tool>
@@ -218,6 +222,7 @@
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
 									<listOptionValue builtIn="false" value="../HardWare/BLE/"/>
 									<listOptionValue builtIn="false" value="../HardWare/BUZZ/"/>
+									<listOptionValue builtIn="false" value="../HardWare/FAN/"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.322363160" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
@@ -235,6 +240,7 @@
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
 									<listOptionValue builtIn="false" value="../HardWare/BLE/"/>
 									<listOptionValue builtIn="false" value="../HardWare/BUZZ/"/>
+									<listOptionValue builtIn="false" value="../HardWare/FAN/"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols.738737025" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="USE_PWR_LDO_SUPPLY"/>

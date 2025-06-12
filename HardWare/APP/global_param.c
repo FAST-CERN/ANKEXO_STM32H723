@@ -112,9 +112,9 @@ void init_system_mutex(void) {
 
 // Lock the system state mutex
 void lock_system_state(void) {
-    if (system_state_mutex_id != NULL) {
-    	osMutexAcquire(system_state_mutex_id, osWaitForever);
-    }
+//    if (system_state_mutex_id != NULL) {
+//    	osMutexAcquire(system_state_mutex_id, osWaitForever);
+//    }
 }
 
 // Unlock the system state mutex

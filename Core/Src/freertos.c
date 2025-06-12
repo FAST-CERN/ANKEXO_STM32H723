@@ -256,12 +256,17 @@ void StartMotorTask(void *argument)
 	//motorZeroQueue  = osMessageQueueNew(10, sizeof(uint32_t), NULL);
   //motorModelQueue = osMessageQueueNew(10, sizeof(uint32_t), NULL);
 
-  motor_control_init();
+  //motor_control_init();
   /* Infinite loop */
   for(;;)
   {
-	motor_control_task();
-    //osDelay(1);
+	//motor_control_task();
+//		printf("G:%.3f,%.3f,%.3f;A:%.3f,%.3f,%.3f;T:%.2f\r\n",
+//				g_system_state.rs485_sensor_data_1.imu_data_1.gyro.x, g_system_state.rs485_sensor_data_1.imu_data_1.gyro.y, g_system_state.rs485_sensor_data_1.imu_data_1.gyro.z,
+//				g_system_state.rs485_sensor_data_1.imu_data_1.acc.x, g_system_state.rs485_sensor_data_1.imu_data_1.acc.y, g_system_state.rs485_sensor_data_1.imu_data_1.acc.z,
+//				g_system_state.rs485_sensor_data_1.encoder_data.angle);
+
+    osDelay(20);
   }
   /* USER CODE END StartMotorTask */
 }
@@ -353,11 +358,27 @@ void StartS485Task(void *argument)
 
                 // 启动100Hz数据采集定时器
                 osTimerStart(rs485DataTimerId, 10); // 10ms = 100Hz
+
+            	//RS485_AUTO_SendDataStart(&rs485_sensor_1);
+            	//RS485_AUTO_SendDataStart(&rs485_sensor_2);
             }
         }
 
+       //RS485_DataAutoProcess();
+
+		printf("G1:%.3f,%.3f,%.3f;A1:%.3f,%.3f,%.3f;T1:%.2f \t",
+				g_system_state.rs485_sensor_data_1.imu_data_1.gyro.x, g_system_state.rs485_sensor_data_1.imu_data_1.gyro.y, g_system_state.rs485_sensor_data_1.imu_data_1.gyro.z,
+				g_system_state.rs485_sensor_data_1.imu_data_1.acc.x, g_system_state.rs485_sensor_data_1.imu_data_1.acc.y, g_system_state.rs485_sensor_data_1.imu_data_1.acc.z,
+				g_system_state.rs485_sensor_data_1.encoder_data.angle);
+
+		printf("G2:%.3f,%.3f,%.3f;A2:%.3f,%.3f,%.3f;T2:%.2f\r\n",
+				g_system_state.rs485_sensor_data_2.imu_data_1.gyro.x, g_system_state.rs485_sensor_data_2.imu_data_1.gyro.y, g_system_state.rs485_sensor_data_2.imu_data_1.gyro.z,
+				g_system_state.rs485_sensor_data_2.imu_data_1.acc.x, g_system_state.rs485_sensor_data_2.imu_data_1.acc.y, g_system_state.rs485_sensor_data_2.imu_data_1.acc.z,
+				g_system_state.rs485_sensor_data_2.encoder_data.angle);
+
+
         // 延时1秒
-        osDelay(1000);
+        osDelay(50);
     }
   /* USER CODE END StartS485Task */
 }
