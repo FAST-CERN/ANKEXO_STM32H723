@@ -88,6 +88,9 @@ void Error_Handler(void);
 #define OET3V3_EN_Pin GPIO_PIN_7
 #define OET3V3_EN_GPIO_Port GPIOD
 
+#define IMU_TMP_Pin GPIO_PIN_1
+#define IMU_TMP_GPIO_Port GPIOB
+
 /* USER CODE BEGIN Private defines */
 #define MOTOR1_EN_ON()    HAL_GPIO_WritePin(CAN1_EN_GPIO_Port,CAN1_EN_Pin, GPIO_PIN_SET)
 #define MOTOR1_EN_OFF()   HAL_GPIO_WritePin(CAN1_EN_GPIO_Port,CAN1_EN_Pin, GPIO_PIN_RESET)

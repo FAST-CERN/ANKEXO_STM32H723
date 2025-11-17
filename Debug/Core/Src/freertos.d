@@ -1,4 +1,5 @@
 Core/Src/freertos.o: ../Core/Src/freertos.c \
+ D:/WORK/2025-07-REW/Code/temp/KEXO_STM32H723/HardWare/APP/IMU/imu_task.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
@@ -53,7 +54,11 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
  ../HardWare/APP/global_param.h ../HardWare/LED/WS2812B.h \
  ../HardWare/BSP/BMI088/inc/BMI088driver.h ../HardWare/BSP/S485_master.h \
  ../Core/Inc/usart.h ../Core/Inc/main.h ../Core/Inc/usart_server.h \
- ../Core/Inc/usart.h ../HardWare/APP/global_param.h ../Core/Inc/adc.h
+ ../Core/Inc/usart.h ../HardWare/APP/global_param.h ../Core/Inc/adc.h \
+ D:/WORK/2025-07-REW/Code/temp/KEXO_STM32H723/HardWare/MC/dm_motor_ctrl.h \
+ D:/WORK/2025-07-REW/Code/temp/KEXO_STM32H723/HardWare/MC/dm_motor_drv.h \
+ ../Core/Inc/fdcan.h ../HardWare/BSP/can_bsp.h
+D:/WORK/2025-07-REW/Code/temp/KEXO_STM32H723/HardWare/APP/IMU/imu_task.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
@@ -119,3 +124,7 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
 ../Core/Inc/usart.h:
 ../HardWare/APP/global_param.h:
 ../Core/Inc/adc.h:
+D:/WORK/2025-07-REW/Code/temp/KEXO_STM32H723/HardWare/MC/dm_motor_ctrl.h:
+D:/WORK/2025-07-REW/Code/temp/KEXO_STM32H723/HardWare/MC/dm_motor_drv.h:
+../Core/Inc/fdcan.h:
+../HardWare/BSP/can_bsp.h:

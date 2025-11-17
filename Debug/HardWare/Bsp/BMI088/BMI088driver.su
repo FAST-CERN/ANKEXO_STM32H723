@@ -1,7 +1,7 @@
-../HardWare/Bsp/BMI088/BMI088driver.c:161:9:BMI088_init	16	static
-../HardWare/Bsp/BMI088/BMI088driver.c:182:9:bmi088_accel_init	16	static
-../HardWare/Bsp/BMI088/BMI088driver.c:234:9:bmi088_gyro_init	16	static
-../HardWare/Bsp/BMI088/BMI088driver.c:288:6:BMI088_read	40	static
-../HardWare/Bsp/BMI088/BMI088driver.c:334:13:BMI088_write_single_reg	16	static
-../HardWare/Bsp/BMI088/BMI088driver.c:348:13:BMI088_read_single_reg	16	static
+../HardWare/Bsp/BMI088/BMI088driver.c:334:13:BMI088_write_single_reg	8	static
+../HardWare/Bsp/BMI088/BMI088driver.c:348:13:BMI088_read_single_reg	8	static
 ../HardWare/Bsp/BMI088/BMI088driver.c:376:13:BMI088_read_muli_reg	16	static
+../HardWare/Bsp/BMI088/BMI088driver.c:182:9:bmi088_accel_init	16	static
+../HardWare/Bsp/BMI088/BMI088driver.c:234:9:bmi088_gyro_init	24	static
+../HardWare/Bsp/BMI088/BMI088driver.c:161:9:BMI088_init	8	static
+../HardWare/Bsp/BMI088/BMI088driver.c:288:6:BMI088_read	32	static

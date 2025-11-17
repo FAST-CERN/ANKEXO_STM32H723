@@ -32,7 +32,6 @@ void app_motor_task_init(){
 	Epos_INIT_Controller1();
 	Epos_INIT_Controller2();
 
-
 	printf(".\r\n");
     while (!all_devices_initialized()) {
         osDelay(100);
@@ -54,7 +53,6 @@ void app_motor_task_loop(){
         	//printf("motorStartQueue:%d\r\n",received_motor_idx);
             // ���������������
             start_motor_control(received_motor_idx);
-
         }
         // ����Ƿ����������������ʽ��
         if (osMessageQueueGet(motorStopQueue, &received_motor_idx, NULL, 0) == osOK) {
@@ -62,7 +60,6 @@ void app_motor_task_loop(){
             // ���������������
             stop_motor_control(received_motor_idx);
         }
-
         // ����Ƿ����������������ʽ��
         if (osMessageQueueGet(motorZeroQueue, &received_motor_idx, NULL, 0) == osOK) {
         	//printf("motorZeroQueue:%d\r\n",received_motor_idx);
@@ -124,9 +121,7 @@ void app_motor_task_loop(){
 
             UART6_SendData("TX", tx_buffer);
 
-
             send_motor_data_to_usb_count = 50;
-
             }
 
             send_motor_data_to_usb_count  = send_motor_data_to_usb_count - 1;

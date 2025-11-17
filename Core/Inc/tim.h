@@ -33,14 +33,16 @@ extern "C" {
 /* USER CODE END Includes */
 
 extern TIM_HandleTypeDef htim3;
-
 extern TIM_HandleTypeDef htim4;
-
 extern TIM_HandleTypeDef htim12;
-
 extern TIM_HandleTypeDef htim15;
 
 /* USER CODE BEGIN Private defines */
+// TIM3 CH4 PWM
+#define TIM3_PWM_CHANNEL TIM_CHANNEL_4
+#define TIM3_PWM_START() 	HAL_TIM_PWM_Start(&htim3, TIM3_PWM_CHANNEL)
+#define TIM3_PWM_STOP() 	HAL_TIM_PWM_Stop(&htim3, TIM3_PWM_CHANNEL)
+#define TIM3_PWM_SET_PULSE(pulse) 	__HAL_TIM_SET_COMPARE(&htim3, TIM3_PWM_CHANNEL, pulse)
 
 /* USER CODE END Private defines */
 

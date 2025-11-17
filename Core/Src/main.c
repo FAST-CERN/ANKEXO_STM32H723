@@ -102,9 +102,7 @@ GETCHAR_PROTOTYPE
   */
 int main(void)
 {
-
   /* USER CODE BEGIN 1 */
-
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -120,7 +118,6 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
@@ -140,9 +137,11 @@ int main(void)
   MX_ADC1_Init();
   MX_TIM4_Init();
   MX_TIM15_Init();
+
   /* USER CODE BEGIN 2 */
   UART6_StartReceive();
   HAL_Delay(1000);
+
   HAL_GPIO_WritePin(GPIOD, OET3V3_EN_Pin, 1);
   HAL_Delay(1000);
 

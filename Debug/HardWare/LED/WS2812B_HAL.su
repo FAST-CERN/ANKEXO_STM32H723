@@ -1,4 +1,4 @@
-../HardWare/LED/WS2812B_HAL.c:10:6:Set_LED	24	static
-../HardWare/LED/WS2812B_HAL.c:23:6:Set_LED_HEX	32	static
-../HardWare/LED/WS2812B_HAL.c:36:6:Set_Brightness	24	static
-../HardWare/LED/WS2812B_HAL.c:52:6:WS2812_Send	32	static
+../HardWare/LED/WS2812B_HAL.c:10:6:Set_LED	0	static
+../HardWare/LED/WS2812B_HAL.c:23:6:Set_LED_HEX	0	static
+../HardWare/LED/WS2812B_HAL.c:36:6:Set_Brightness	4	static
+../HardWare/LED/WS2812B_HAL.c:52:6:WS2812_Send	8	static

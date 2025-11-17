@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
+#include <imu_task.h>
 #include "FreeRTOS.h"
 #include "task.h"
 #include "main.h"
@@ -33,6 +34,8 @@
 #include "S485_master.h"
 #include "global_param.h"
 #include "adc.h"
+#include "dm_motor_ctrl.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -62,6 +65,7 @@ const osThreadAttr_t defaultTask_attributes = {
   .stack_size = 512 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
+
 /* Definitions for LCDTask */
 osThreadId_t LCDTaskHandle;
 const osThreadAttr_t LCDTask_attributes = {
@@ -69,6 +73,7 @@ const osThreadAttr_t LCDTask_attributes = {
   .stack_size = 768 * 4,
   .priority = (osPriority_t) osPriorityBelowNormal7,
 };
+
 /* Definitions for MotorTask */
 osThreadId_t MotorTaskHandle;
 const osThreadAttr_t MotorTask_attributes = {
@@ -76,13 +81,15 @@ const osThreadAttr_t MotorTask_attributes = {
   .stack_size = 768 * 4,
   .priority = (osPriority_t) osPriorityNormal3,
 };
+
 /* Definitions for IMUTask */
 osThreadId_t IMUTaskHandle;
 const osThreadAttr_t IMUTask_attributes = {
   .name = "IMUTask",
-  .stack_size = 1024 * 4,
+  .stack_size = 2048 * 4,
   .priority = (osPriority_t) osPriorityNormal7,
 };
+
 /* Definitions for S485Task */
 osThreadId_t S485TaskHandle;
 const osThreadAttr_t S485Task_attributes = {
@@ -90,6 +97,11 @@ const osThreadAttr_t S485Task_attributes = {
   .stack_size = 4096 * 4,
   .priority = (osPriority_t) osPriorityAboveNormal,
 };
+
+
+
+
+
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -102,7 +114,7 @@ uint8_t ADC_battery(uint32_t adc) {
     // 1. 将 ADC 值转换为电压（假设 ADC 满量程对应 3.3V）
 	double voltage = (double)adc_buffer * 3.3f / 65535.0f / min_voltage * 22.2 - 0.35;
 
-	printf("voltage:%f\r\n", voltage);
+//	printf("voltage:%f\r\n", voltage);
 
     // 2. 定义电池电压有效范围
 
@@ -130,50 +142,45 @@ void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
   * @retval None
   */
 void MX_FREERTOS_Init(void) {
-  /* USER CODE BEGIN Init */
+	/* USER CODE BEGIN Init */
+	/* USER CODE END Init */
 
-  /* USER CODE END Init */
+	/* USER CODE BEGIN RTOS_MUTEX */
+	/* add mutexes, ... */
+	/* USER CODE END RTOS_MUTEX */
 
-  /* USER CODE BEGIN RTOS_MUTEX */
-  /* add mutexes, ... */
-  /* USER CODE END RTOS_MUTEX */
+	/* USER CODE BEGIN RTOS_SEMAPHORES */
+	/* add semaphores, ... */
+	/* USER CODE END RTOS_SEMAPHORES */
 
-  /* USER CODE BEGIN RTOS_SEMAPHORES */
-  /* add semaphores, ... */
-  /* USER CODE END RTOS_SEMAPHORES */
+	/* USER CODE BEGIN RTOS_TIMERS */
+	/* start timers, add new ones, ... */
+	/* USER CODE END RTOS_TIMERS */
 
-  /* USER CODE BEGIN RTOS_TIMERS */
-  /* start timers, add new ones, ... */
-  /* USER CODE END RTOS_TIMERS */
+	/* USER CODE BEGIN RTOS_QUEUES */
+	/* add queues, ... */
+	/* USER CODE END RTOS_QUEUES */
 
-  /* USER CODE BEGIN RTOS_QUEUES */
-  /* add queues, ... */
-  /* USER CODE END RTOS_QUEUES */
+	/* USER CODE BEGIN RTOS_THREADS */
+	/* creation of defaultTask */
+	defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
 
-  /* Create the thread(s) */
-  /* creation of defaultTask */
-  defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
+	/* creation of LCDTask */
+ 	LCDTaskHandle = osThreadNew(StartLedTask, NULL, &LCDTask_attributes);
 
-  /* creation of LCDTask */
-  LCDTaskHandle = osThreadNew(StartLedTask, NULL, &LCDTask_attributes);
+	/* creation of MotorTask */
+	MotorTaskHandle = osThreadNew(StartMotorTask, NULL, &MotorTask_attributes);
 
-  /* creation of MotorTask */
-  MotorTaskHandle = osThreadNew(StartMotorTask, NULL, &MotorTask_attributes);
+	/* creation of IMUTask */
+	IMUTaskHandle = osThreadNew(StartIMUTask, NULL, &IMUTask_attributes);
 
-  /* creation of IMUTask */
-  IMUTaskHandle = osThreadNew(StartIMUTask, NULL, &IMUTask_attributes);
+	/* creation of S485Task */
+	S485TaskHandle = osThreadNew(StartS485Task, NULL, &S485Task_attributes);
+	/* USER CODE END RTOS_THREADS */
 
-  /* creation of S485Task */
-  S485TaskHandle = osThreadNew(StartS485Task, NULL, &S485Task_attributes);
-
-  /* USER CODE BEGIN RTOS_THREADS */
-  /* add threads, ... */
-  /* USER CODE END RTOS_THREADS */
-
-  /* USER CODE BEGIN RTOS_EVENTS */
-  /* add events, ... */
-  /* USER CODE END RTOS_EVENTS */
-
+	/* USER CODE BEGIN RTOS_EVENTS */
+	/* add events, ... */
+	/* USER CODE END RTOS_EVENTS */
 }
 
 /* USER CODE BEGIN Header_StartDefaultTask */
@@ -186,6 +193,12 @@ void MX_FREERTOS_Init(void) {
 void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN StartDefaultTask */
+  printf("[INFO] DefaultTask Started.\r\n");
+
+  // print system info
+  printf("[INFO] System Clock: %ld Hz\r\n", HAL_RCC_GetSysClockFreq());
+  printf("[INFO] System Tick: %d Hz\r\n", 1000);
+
   /* Infinite loop */
   for(;;)
   {
@@ -204,7 +217,7 @@ void StartDefaultTask(void *argument)
 void StartLedTask(void *argument)
 {
   /* USER CODE BEGIN StartLedTask */
-  printf("StartLEDTask\r\n");
+  printf("[INFO] LedTask Started.\r\n");
 //  Set_LED(0,255,255,255);
 //  Set_Brightness(1);
 //  WS2812_Send();
@@ -216,7 +229,6 @@ void StartLedTask(void *argument)
   WS2812B_FillColor(0,1,&temp);
   WS2812B_RefreshPixel();
   osDelay(1000);
-
 
   /* Infinite loop */
   for(;;)
@@ -231,10 +243,10 @@ void StartLedTask(void *argument)
     char battery_data[16];
     // 格式化为 BA100 格式 (BA + 电量百分比)
     snprintf(battery_data, sizeof(battery_data), "%d", battery);
-    // 使用 UART6_SendData 发送电量百分比数据
+    // 使用 UART6_SendData 发送电量百分比数据(TO NRF)
     UART6_SendData("BA", battery_data);
-	printf("battery: %d%%\r\n", battery);
-    osDelay(5000);
+//	printf("[INFO] Battery Percentage: %d%%\r\n", battery);	// print battery percentage
+    osDelay(5000); 	// 延时5秒
   }
   /* USER CODE END StartLedTask */
 }
@@ -245,31 +257,45 @@ void StartLedTask(void *argument)
 * @param argument: Not used
 * @retval None
 */
+/* 定时器句柄，用于100Hz的数据采集 & 控制 */
+osTimerId_t dm_motor_TimerId;
 /* USER CODE END Header_StartMotorTask */
 void StartMotorTask(void *argument)
 {
-  /* USER CODE BEGIN StartMotorTask */
-  can_bsp_init();
-  //app_motor_task_init();
-	//motorStartQueue = osMessageQueueNew(10, sizeof(uint32_t), NULL);
-	//motorStopQueue  = osMessageQueueNew(10, sizeof(uint32_t), NULL);
-	//motorZeroQueue  = osMessageQueueNew(10, sizeof(uint32_t), NULL);
-  //motorModelQueue = osMessageQueueNew(10, sizeof(uint32_t), NULL);
+	printf("[INFO] MotorTask started\r\n");
+	/* USER CODE BEGIN StartMotorTask */
+	can_bsp_init();
 
-  //motor_control_init();
-  /* Infinite loop */
-  for(;;)
-  {
-	//motor_control_task();
-//		printf("G:%.3f,%.3f,%.3f;A:%.3f,%.3f,%.3f;T:%.2f\r\n",
-//				g_system_state.rs485_sensor_data_1.imu_data_1.gyro.x, g_system_state.rs485_sensor_data_1.imu_data_1.gyro.y, g_system_state.rs485_sensor_data_1.imu_data_1.gyro.z,
-//				g_system_state.rs485_sensor_data_1.imu_data_1.acc.x, g_system_state.rs485_sensor_data_1.imu_data_1.acc.y, g_system_state.rs485_sensor_data_1.imu_data_1.acc.z,
-//				g_system_state.rs485_sensor_data_1.encoder_data.angle);
+	// motor init
+	dm_motor_init();
 
-    osDelay(20);
-  }
-  /* USER CODE END StartMotorTask */
+	dm_motor_disable(&hfdcan1,&motor[Motor1]);
+	osDelay(100);
+	dm_motor_enable(&hfdcan1,&motor[Motor1]);
+	osDelay(100);
+	save_pos_zero(&hfdcan1,1,MIT_MODE);
+
+//	dm_motor_disable(&hfdcan1,&motor[Motor2]);
+//	osDelay(100);
+//	dm_motor_enable(&hfdcan1,&motor[Motor2]);
+//	osDelay(100);
+
+	// 创建定时器，用于100Hz的控制信号输出
+	osTimerAttr_t timer_attr = {
+		.name = "dm_motor_Timer"
+	};
+	dm_motor_TimerId = osTimerNew(dm_motor_timer_cbk, osTimerPeriodic, NULL, &timer_attr);
+	osTimerStart(dm_motor_TimerId, 10);	// start 100hz soft timer
+
+	/* Infinite loop */
+	for(;;)
+	{
+
+		osDelay(20);
+	}
+	/* USER CODE END StartMotorTask */
 }
+
 
 /* USER CODE BEGIN Header_StartIMUTask */
 /**
@@ -280,47 +306,16 @@ void StartMotorTask(void *argument)
 /* USER CODE END Header_StartIMUTask */
 void StartIMUTask(void *argument)
 {
-  /* USER CODE BEGIN StartIMUTask */
-  printf("StartIMUTask\r\n");
+	/* USER CODE BEGIN StartIMUTask */
+	printf("[INFO] IMUTask started\r\n");
+	imu_task_init();	// IMU 任务初始化
 
-  float gyro[3], accel[3], temp;
-
-  while(BMI088_init())
-  {
-	  printf("BMI088_init\r\n");
-	  osDelay(100);
-  }
-  g_device_status.bmi088_pcb_devicestatus = true;
-
-  /* Infinite loop */
-  for(;;)
-  {
-
-	BMI088_read(gyro, accel, &temp);
-
-	g_system_state.bmi088_imu_data.acc.x = accel[0];
-	g_system_state.bmi088_imu_data.acc.x = accel[1];
-	g_system_state.bmi088_imu_data.acc.x = accel[2];
-
-	g_system_state.bmi088_imu_data.gyro.x = gyro[0];
-	g_system_state.bmi088_imu_data.gyro.x = gyro[1];
-	g_system_state.bmi088_imu_data.gyro.x = gyro[2];
-
-	g_system_state.bmi088_imu_data.dataReady = true;
-
-    // 格式化数据到缓冲区
-    //uint8_t tx_buffer[64]; // 用于存储发送数据的缓冲区
-    //int len;
-    // 格式: "G:x,y,z;A:x,y,z;T:t\r\n"
-//	printf("G:%.3f,%.3f,%.3f;A:%.3f,%.3f,%.3f;T:%.2f\r\n",
-//				   gyro[0], gyro[1], gyro[2],
-//				   accel[0], accel[1], accel[2],
-//				   temp);
-    // 通过串口发送数据
-    // HAL_UART_Transmit(&huart1, tx_buffer, len, 0xFFFF);
-
-    osDelay(10);
-  }
+	/* Infinite loop */
+	for(;;)
+	{
+		imu_task_loop();	// IMU 数据处理循环
+		osDelay(1); 		// 延时1ms/tick
+	}
   /* USER CODE END StartIMUTask */
 }
 
@@ -333,12 +328,13 @@ void StartIMUTask(void *argument)
 /* USER CODE END Header_StartS485Task */
 void StartS485Task(void *argument)
 {
-  /* USER CODE BEGIN StartS485Task */
+	/* USER CODE BEGIN StartS485Task */
 	osDelay(5000);
     if (!RS485_InitializeSensors()) {
-        printf("RS485 sensors initialization failed\r\n");
+        printf("[INFO] RS485 sensors initialization failed\r\n");
     } else {
-        printf("RS485 sensors initialized successfully\r\n");
+        printf("[INFO] RS485 sensors initialized successfully\r\n");
+        osTimerStart(rs485DataTimerId, 10);	// start 100Hz data collection timer
     }
 
     // 任务主循环
@@ -350,11 +346,11 @@ void StartS485Task(void *argument)
             RS485_QueryStatus(&rs485_sensor_1);
             osDelay(100);
             RS485_QueryStatus(&rs485_sensor_2);
-            printf("RS485 sensors re-initialized ing\r\n");
+            printf("[INFO] RS485 sensors initial ongoing.\r\n");
 
             // 检查是否所有设备都已初始化
             if (rs485_sensor_1.initialized && rs485_sensor_2.initialized) {
-                printf("RS485 sensors re-initialized successfully\r\n");
+                printf("[INFO] RS485 sensors initial successfully.\r\n");
 
                 // 启动100Hz数据采集定时器
                 osTimerStart(rs485DataTimerId, 10); // 10ms = 100Hz
@@ -364,27 +360,48 @@ void StartS485Task(void *argument)
             }
         }
 
-       //RS485_DataAutoProcess();
+        if( g_system_state.rs485_sensor_data_2.imu_data_1.dataReady &&
+			g_system_state.rs485_sensor_data_2.imu_data_2.dataReady) {
+//			printf("RS485 Sensor 2 Data Ready\r\n");
+			g_system_state.rs485_sensor_data_2.imu_data_1.dataReady = false;
+			g_system_state.rs485_sensor_data_2.imu_data_2.dataReady = false;
 
-		printf("G1:%.3f,%.3f,%.3f;A1:%.3f,%.3f,%.3f;T1:%.2f \t",
-				g_system_state.rs485_sensor_data_1.imu_data_1.gyro.x, g_system_state.rs485_sensor_data_1.imu_data_1.gyro.y, g_system_state.rs485_sensor_data_1.imu_data_1.gyro.z,
-				g_system_state.rs485_sensor_data_1.imu_data_1.acc.x, g_system_state.rs485_sensor_data_1.imu_data_1.acc.y, g_system_state.rs485_sensor_data_1.imu_data_1.acc.z,
-				g_system_state.rs485_sensor_data_1.encoder_data.angle);
+			// RS485 Sensor 2 imu-1
+			float inc_angle;
+			float q[4] = {
+				g_system_state.rs485_sensor_data_2.imu_data_1.quat.w,
+				g_system_state.rs485_sensor_data_2.imu_data_1.quat.x,
+				g_system_state.rs485_sensor_data_2.imu_data_1.quat.y,
+				g_system_state.rs485_sensor_data_2.imu_data_1.quat.z
+			};
+			inc_angle = quat_to_incangle(q,0);
+			g_system_state.rs485_sensor_data_2.imu_data_1.inc_angle = inc_angle;
 
-		printf("G2:%.3f,%.3f,%.3f;A2:%.3f,%.3f,%.3f;T2:%.2f\r\n",
-				g_system_state.rs485_sensor_data_2.imu_data_1.gyro.x, g_system_state.rs485_sensor_data_2.imu_data_1.gyro.y, g_system_state.rs485_sensor_data_2.imu_data_1.gyro.z,
-				g_system_state.rs485_sensor_data_2.imu_data_1.acc.x, g_system_state.rs485_sensor_data_2.imu_data_1.acc.y, g_system_state.rs485_sensor_data_2.imu_data_1.acc.z,
-				g_system_state.rs485_sensor_data_2.encoder_data.angle);
+			// RS485 Sensor 2 imu-2
+			q[0] = g_system_state.rs485_sensor_data_2.imu_data_2.quat.w;
+			q[1] = g_system_state.rs485_sensor_data_2.imu_data_2.quat.x;
+			q[2] = g_system_state.rs485_sensor_data_2.imu_data_2.quat.y;
+			q[3] = g_system_state.rs485_sensor_data_2.imu_data_2.quat.z;
+			inc_angle = quat_to_incangle(q,0);
+			g_system_state.rs485_sensor_data_2.imu_data_2.inc_angle = inc_angle;
+
+//			printf("[DATA] SENSOR 2 IMU 1[inc]:%.3f\r\n",
+//					g_system_state.rs485_sensor_data_2.imu_data_1.inc_angle);
+//			printf("[DATA] SENSOR 2 IMU 2[inc]:%.3f\r\n",
+//					g_system_state.rs485_sensor_data_2.imu_data_2.inc_angle);
+
+//			printf("[DATA] imu-1[quat]:%.3f,%.3f,%.3f,%.3f\r\n",
+//					g_system_state.rs485_sensor_data_2.imu_data_1.quat.w,
+//					g_system_state.rs485_sensor_data_2.imu_data_1.quat.x,
+//					g_system_state.rs485_sensor_data_2.imu_data_1.quat.y,
+//					g_system_state.rs485_sensor_data_2.imu_data_1.quat.z);
+
+			// process data here
+			// ...
+		}
 
 
-        // 延时1秒
-        osDelay(50);
+        osDelay(1);
     }
-  /* USER CODE END StartS485Task */
+    /* USER CODE END StartS485Task */
 }
-
-/* Private application code --------------------------------------------------*/
-/* USER CODE BEGIN Application */
-
-/* USER CODE END Application */
-

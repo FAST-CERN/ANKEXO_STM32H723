@@ -33,6 +33,31 @@ extern uint8_t RS4815_2_AUTO_SEND_DATA;
 #define CMD_GET_ALL_AUTO_START   0x0C    // 查询设备状态
 #define CMD_GET_ALL_AUTO_STOP    0x0D    // 查询设备状态
 
+#define CMD_GET_IMU1_MAG         0x0E 	 // 获取IMU1磁力计数据
+#define CMD_GET_IMU2_MAG         0x0F 	 // 获取IMU2磁力计数据
+
+// ----------------- IMU校准相关命令 -----------------
+#define CMD_SET_IMU1_ACC_BIAS	 0x10    // 设置IMU1加速度计校准参数（3*4）
+#define CMD_SET_IMU2_ACC_BIAS	 0x11    // 设置IMU2加速度计校准参数
+
+#define CMD_SET_IMU1_GYRO_BIAS	 0x12    // 设置IMU1陀螺仪校准参数（3*4）
+#define CMD_SET_IMU2_GYRO_BIAS	 0x13    // 设置IMU2陀螺仪校准参数
+
+#define CMD_SET_IMU1_MAG_BIAS	 0x14    // 设置IMU1磁力计校准参数（3*4）
+#define CMD_SET_IMU2_MAG_BIAS	 0x15    // 设置IMU2磁力计校准参数
+
+#define CMD_SET_IMU1_ACC_MAT	 0x16    // 设置IMU1加速度计校准参数（9*4）
+#define CMD_SET_IMU2_ACC_MAT	 0x17    // 设置IMU2加速度计校准参数
+
+#define CMD_SET_IMU1_MAG_MAT	 0x18    // 设置IMU1磁力计校准参数（9*4）
+#define CMD_SET_IMU2_MAG_MAT	 0x19    // 设置IMU2磁力计校准参数
+
+#define CMD_LOAD_CALIBRATION	 0x1A    // 加载IMU校准数据
+
+#define CMD_SET_RUN				 0x1B    // 设置IMU运行状态
+#define CMD_SET_STOP			 0x1C    // 设置IMU停止状态
+#define CMD_SET_CALIB			 0x1D    // 设置IMU校准状态
+
 /* 定义通信协议帧格式 - 3字节帧头和帧尾 */
 #define FRAME_HEADER_SIZE        3       // 帧头大小
 #define FRAME_TAIL_SIZE          3       // 帧尾大小

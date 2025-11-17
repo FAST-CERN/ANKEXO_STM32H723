@@ -1,6 +1,6 @@
-../Core/Src/usart_server.c:21:6:UART_Service_Init	8	static
-../Core/Src/usart_server.c:71:6:IsFrameHeaderFound	32	static
-../Core/Src/usart_server.c:88:6:IsFrameTailFound	32	static
-../Core/Src/usart_server.c:106:9:ProcessUartData	32	static
-../Core/Src/usart_server.c:172:6:ResetUartState	16	static
-../Core/Src/usart_server.c:186:6:HAL_UART_RxCpltCallback	32	static
+../Core/Src/usart_server.c:21:6:UART_Service_Init	24	static
+../Core/Src/usart_server.c:71:6:IsFrameHeaderFound	8	static
+../Core/Src/usart_server.c:88:6:IsFrameTailFound	8	static
+../Core/Src/usart_server.c:106:9:ProcessUartData	16	static
+../Core/Src/usart_server.c:172:6:ResetUartState	0	static
+../Core/Src/usart_server.c:186:6:HAL_UART_RxCpltCallback	24	static

@@ -45,11 +45,11 @@ void MX_TIM3_Init(void)
 
   /* USER CODE END TIM3_Init 1 */
   htim3.Instance = TIM3;
-  htim3.Init.Prescaler = 0;
+  htim3.Init.Prescaler = 239; 	// 240Mhz/240 = 1MHz
   htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim3.Init.Period = 65535;
+  htim3.Init.Period = 999;		// 1MHz/1000 = 1KHz
   htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
-  htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
   if (HAL_TIM_PWM_Init(&htim3) != HAL_OK)
   {
     Error_Handler();
@@ -69,11 +69,10 @@ void MX_TIM3_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN TIM3_Init 2 */
-
   /* USER CODE END TIM3_Init 2 */
   HAL_TIM_MspPostInit(&htim3);
-
 }
+
 /* TIM4 init function */
 void MX_TIM4_Init(void)
 {
@@ -250,14 +249,14 @@ void HAL_TIM_PWM_MspInit(TIM_HandleTypeDef* tim_pwmHandle)
   }
   else if(tim_pwmHandle->Instance==TIM12)
   {
-  /* USER CODE BEGIN TIM12_MspInit 0 */
+	/* USER CODE BEGIN TIM12_MspInit 0 */
 
-  /* USER CODE END TIM12_MspInit 0 */
-    /* TIM12 clock enable */
-    __HAL_RCC_TIM12_CLK_ENABLE();
-  /* USER CODE BEGIN TIM12_MspInit 1 */
+	/* USER CODE END TIM12_MspInit 0 */
+	/* TIM12 clock enable */
+	__HAL_RCC_TIM12_CLK_ENABLE();
+	/* USER CODE BEGIN TIM12_MspInit 1 */
 
-  /* USER CODE END TIM12_MspInit 1 */
+	/* USER CODE END TIM12_MspInit 1 */
   }
   else if(tim_pwmHandle->Instance==TIM15)
   {
@@ -307,6 +306,7 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* tim_baseHandle)
   /* USER CODE END TIM4_MspInit 1 */
   }
 }
+
 void HAL_TIM_MspPostInit(TIM_HandleTypeDef* timHandle)
 {
 

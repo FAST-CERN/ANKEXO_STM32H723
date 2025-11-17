@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (12.3.rel1)
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -13,13 +13,17 @@ RM := rm -rf
 -include Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/subdir.mk
 -include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/subdir.mk
 -include Middlewares/Third_Party/FreeRTOS/Source/subdir.mk
+-include HardWare/MC/subdir.mk
 -include HardWare/LED/subdir.mk
 -include HardWare/FAN/subdir.mk
 -include HardWare/EPOS/subdir.mk
+-include HardWare/Bsp/ICM20948/subdir.mk
 -include HardWare/Bsp/BMI088/subdir.mk
 -include HardWare/Bsp/subdir.mk
 -include HardWare/BUZZ/subdir.mk
 -include HardWare/BLE/subdir.mk
+-include HardWare/APP/PID/subdir.mk
+-include HardWare/APP/IMU/subdir.mk
 -include HardWare/APP/subdir.mk
 -include Drivers/STM32H7xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
@@ -96,8 +100,8 @@ all: main-build
 main-build: ectoskeleton.elf secondary-outputs
 
 # Tool invocations
-ectoskeleton.elf ectoskeleton.map: $(OBJS) $(USER_OBJS) D:\STM32\STM32Project\ectoskeleton\STM32H723VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "ectoskeleton.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\STM32\STM32Project\ectoskeleton\STM32H723VGTX_FLASH.ld" -Wl,-Map="ectoskeleton.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+ectoskeleton.elf ectoskeleton.map: $(OBJS) $(USER_OBJS) D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\STM32H723VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "ectoskeleton.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\STM32H723VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ectoskeleton.map" -Wl,--gc-sections -static -L"D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

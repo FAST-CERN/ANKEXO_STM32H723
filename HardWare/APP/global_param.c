@@ -85,8 +85,9 @@ SystemState g_system_state = {
     .rs485_sensor_data_1 = {0},
     .rs485_sensor_data_2 = {0},
 
-    // Initialize BMI088 PCB IMU data
+    // Initialize Main IMU data
     .bmi088_imu_data = {0},
+	.icm20948_imu_data = {0},
 
     // Initialize system mutex
     .system_mutex = NULL
@@ -99,9 +100,6 @@ osMutexId_t system_state_mutex_id = NULL;
 const osMutexAttr_t system_state_mutex_attributes = {
   .name = "system_state_mutex"
 };
-
-
-
 
 // Initialize the system mutex
 void init_system_mutex(void) {
@@ -178,6 +176,10 @@ void unlock_system_state(void) {
 //
 //    unlock_system_state();
 //}
+
+
+
+
 
 // Helper function to send data over USB CDC
 static void send_over_usb(const char *data, uint16_t len) {

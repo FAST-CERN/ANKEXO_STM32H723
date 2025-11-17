@@ -1,7 +1,7 @@
-../Core/Src/freertos.c:97:9:ADC_battery	40	static
-../Core/Src/freertos.c:132:6:MX_FREERTOS_Init	8	static
-../Core/Src/freertos.c:186:6:StartDefaultTask	16	static
-../Core/Src/freertos.c:204:6:StartLedTask	40	static
-../Core/Src/freertos.c:249:6:StartMotorTask	16	static
-../Core/Src/freertos.c:281:6:StartIMUTask	48	static
-../Core/Src/freertos.c:334:6:StartS485Task	64	static
+../Core/Src/freertos.c:193:6:StartDefaultTask	8	static
+../Core/Src/freertos.c:263:6:StartMotorTask	24	static
+../Core/Src/freertos.c:307:6:StartIMUTask	8	static
+../Core/Src/freertos.c:329:6:StartS485Task	32	static
+../Core/Src/freertos.c:109:9:ADC_battery	16	static
+../Core/Src/freertos.c:217:6:StartLedTask	32	static
+../Core/Src/freertos.c:144:6:MX_FREERTOS_Init	8	static

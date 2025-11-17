@@ -275,6 +275,7 @@ void ProcessResponse(RS485_State *state) {
     // 获取命令码
     uint8_t cmd = uartState->RxBuffer[headerPos + FRAME_HEADER_SIZE + 1]; // 命令码在地址后面
     uint16_t rxIndex = headerPos + FRAME_HEADER_SIZE + 2; // 数据开始索引
+    uint16_t dataLength = tailPos - headerPos - FRAME_HEADER_SIZE -3;
 
     // 处理不同命令的响应
     switch (cmd) {
@@ -309,7 +310,6 @@ void ProcessResponse(RS485_State *state) {
             break;
         }
         case CMD_GET_ANGLE: {
-
             // 解析所有传感器数据
             RS485_Sensor_Data *sensorData;
 
@@ -332,7 +332,314 @@ void ProcessResponse(RS485_State *state) {
 
         }
 
+        case CMD_GET_IMU1_QUAT:{
+        	if(dataLength != sizeof(float)*4 + 1){
+				break;	//数据长度不对
+			}
+
+        	// get sensor id
+        	RS485_Sensor_Data *sensorData;
+			if (state->sensorId == RS485_SENSOR_1) {
+				sensorData = &g_system_state.rs485_sensor_data_1;
+			} else {
+				sensorData = &g_system_state.rs485_sensor_data_2;
+			}
+
+			lock_system_state();
+
+			memcpy(&sensorData->imu_data_1.quat.w, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.quat.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.quat.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.quat.w, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+			sensorData->imu_data_1.dataReady = true;
+
+			unlock_system_state();
+			break;
+        }
+
+        case CMD_GET_IMU2_QUAT:{
+        	if(dataLength != sizeof(float)*4 + 1){
+				break;	//数据长度不对
+			}
+
+			// get sensor id
+			RS485_Sensor_Data *sensorData;
+			if (state->sensorId == RS485_SENSOR_1) {
+				sensorData = &g_system_state.rs485_sensor_data_1;
+			} else {
+				sensorData = &g_system_state.rs485_sensor_data_2;
+			}
+
+			lock_system_state();
+
+			memcpy(&sensorData->imu_data_2.quat.w, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.quat.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.quat.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.quat.w, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			sensorData->imu_data_2.dataReady = true;
+
+			unlock_system_state();
+			break;
+		}
+
+        case CMD_GET_IMU1_ACCEL:{
+			if(dataLength != sizeof(float)*3 + 1){
+				break;	//数据长度不对
+			}
+
+			// get sensor id
+			RS485_Sensor_Data *sensorData;
+			if (state->sensorId == RS485_SENSOR_1) {
+				sensorData = &g_system_state.rs485_sensor_data_1;
+			} else {
+				sensorData = &g_system_state.rs485_sensor_data_2;
+			}
+
+			lock_system_state();
+
+			memcpy(&sensorData->imu_data_1.acc.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.acc.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.acc.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+			sensorData->imu_data_1.dataReady = true;
+
+			unlock_system_state();
+			break;
+		}
+
+        case CMD_GET_IMU2_ACCEL:{
+			if(dataLength != sizeof(float)*3 + 1){
+				break;	//数据长度不对
+			}
+
+			// get sensor id
+			RS485_Sensor_Data *sensorData;
+			if (state->sensorId == RS485_SENSOR_1) {
+				sensorData = &g_system_state.rs485_sensor_data_1;
+			} else {
+				sensorData = &g_system_state.rs485_sensor_data_2;
+			}
+
+			lock_system_state();
+
+			memcpy(&sensorData->imu_data_2.acc.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.acc.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.acc.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+			sensorData->imu_data_2.dataReady = true;
+
+			unlock_system_state();
+			break;
+		}
+
+        case CMD_GET_IMU1_GYRO:{
+        	if(dataLength != sizeof(float)*3 + 1){
+				break;	//数据长度不对
+			}
+
+			// get sensor id
+			RS485_Sensor_Data *sensorData;
+			if (state->sensorId == RS485_SENSOR_1) {
+				sensorData = &g_system_state.rs485_sensor_data_1;
+			} else {
+				sensorData = &g_system_state.rs485_sensor_data_2;
+			}
+			lock_system_state();
+
+			memcpy(&sensorData->imu_data_1.gyro.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.gyro.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.gyro.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+			sensorData->imu_data_1.dataReady = true;
+			unlock_system_state();
+        	break;
+        }
+
+        case CMD_GET_IMU2_GYRO:{
+			if(dataLength != sizeof(float)*3 + 1){
+				break;	//数据长度不对
+			}
+
+			// get sensor id
+			RS485_Sensor_Data *sensorData;
+			if (state->sensorId == RS485_SENSOR_1) {
+				sensorData = &g_system_state.rs485_sensor_data_1;
+			} else {
+				sensorData = &g_system_state.rs485_sensor_data_2;
+			}
+			lock_system_state();
+
+			memcpy(&sensorData->imu_data_2.gyro.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.gyro.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.gyro.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+			sensorData->imu_data_2.dataReady = true;
+			unlock_system_state();
+			break;
+		}
+
+        case CMD_GET_IMU1_MAG:{
+			if(dataLength != sizeof(float)*3 + 1){
+				break;	//数据长度不对
+			}
+
+			// get sensor id
+			RS485_Sensor_Data *sensorData;
+			if (state->sensorId == RS485_SENSOR_1) {
+				sensorData = &g_system_state.rs485_sensor_data_1;
+			} else {
+				sensorData = &g_system_state.rs485_sensor_data_2;
+			}
+			lock_system_state();
+
+			memcpy(&sensorData->imu_data_1.mag.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.mag.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.mag.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+			sensorData->imu_data_1.dataReady = true;
+			unlock_system_state();
+			break;
+		}
+
+        case CMD_GET_IMU2_MAG:{
+			if(dataLength != sizeof(float)*3 + 1){
+				break;	//数据长度不对
+			}
+
+			// get sensor id
+			RS485_Sensor_Data *sensorData;
+			if (state->sensorId == RS485_SENSOR_1) {
+				sensorData = &g_system_state.rs485_sensor_data_1;
+			} else {
+				sensorData = &g_system_state.rs485_sensor_data_2;
+			}
+			lock_system_state();
+
+			memcpy(&sensorData->imu_data_2.mag.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.mag.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.mag.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+			sensorData->imu_data_2.dataReady = true;
+			unlock_system_state();
+			break;
+		}
+
+        case CMD_GET_IMU1_ALL:{
+			if(dataLength != sizeof(float)*10 + 1){
+				break;	//数据长度不对
+			}
+
+			// get sensor id
+			RS485_Sensor_Data *sensorData;
+			if (state->sensorId == RS485_SENSOR_1) {
+				sensorData = &g_system_state.rs485_sensor_data_1;
+			} else {
+				sensorData = &g_system_state.rs485_sensor_data_2;
+			}
+			lock_system_state();
+
+			memcpy(&sensorData->imu_data_1.quat.w, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.quat.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.quat.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.quat.w, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+			memcpy(&sensorData->imu_data_1.acc.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.acc.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.acc.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+			memcpy(&sensorData->imu_data_1.gyro.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.gyro.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.gyro.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+			sensorData->imu_data_1.dataReady = true;
+			unlock_system_state();
+			break;
+		}
+
+        case CMD_GET_IMU2_ALL:{
+			if(dataLength != sizeof(float)*10 + 1){
+				break;	//数据长度不对
+			}
+
+			// get sensor id
+			RS485_Sensor_Data *sensorData;
+			if (state->sensorId == RS485_SENSOR_1) {
+				sensorData = &g_system_state.rs485_sensor_data_1;
+			} else {
+				sensorData = &g_system_state.rs485_sensor_data_2;
+			}
+			lock_system_state();
+
+			memcpy(&sensorData->imu_data_2.quat.w, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.quat.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.quat.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.quat.w, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+			memcpy(&sensorData->imu_data_2.acc.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.acc.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.acc.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+			memcpy(&sensorData->imu_data_2.gyro.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.gyro.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.gyro.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+			sensorData->imu_data_2.dataReady = true;
+			unlock_system_state();
+			break;
+		}
+
         case CMD_GET_ALL_DATA: {
+        	if(dataLength <= 1){
+        		break; // error flag only
+        	}
+
             // 解析所有传感器数据
             RS485_Sensor_Data *sensorData;
 
@@ -349,38 +656,64 @@ void ProcessResponse(RS485_State *state) {
             memcpy(&sensorData->encoder_data.angle, &uartState->RxBuffer[rxIndex], sizeof(float));
             rxIndex += sizeof(float);
 
-            // IMU1数据
-            // 加速度
-            memcpy(&sensorData->imu_data_1.acc.x, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_1.acc.y, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_1.acc.z, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
+            // IMU not running, only angle data
+            if(dataLength != sizeof(float)*9 + 1){
+				unlock_system_state();
+				break;
+			}
 
-            // 角速度
-            memcpy(&sensorData->imu_data_1.gyro.x, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_1.gyro.y, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_1.gyro.z, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
+            // IMU1数据
+            // 四元数
+            memcpy(&sensorData->imu_data_1.quat.w, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.quat.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.quat.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_1.quat.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+
+            // 加速度
+//            memcpy(&sensorData->imu_data_1.acc.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+//            rxIndex += sizeof(float);
+//            memcpy(&sensorData->imu_data_1.acc.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+//            rxIndex += sizeof(float);
+//            memcpy(&sensorData->imu_data_1.acc.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+//            rxIndex += sizeof(float);
+//
+//            // 角速度
+//            memcpy(&sensorData->imu_data_1.gyro.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+//            rxIndex += sizeof(float);
+//            memcpy(&sensorData->imu_data_1.gyro.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+//            rxIndex += sizeof(float);
+//            memcpy(&sensorData->imu_data_1.gyro.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+//            rxIndex += sizeof(float);
 
             // IMU2数据
-            // 加速度
-            memcpy(&sensorData->imu_data_2.acc.x, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_2.acc.y, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_2.acc.z, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
+			// 四元数
+			memcpy(&sensorData->imu_data_2.quat.w, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.quat.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.quat.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
+			memcpy(&sensorData->imu_data_2.quat.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+			rxIndex += sizeof(float);
 
-            // 角速度
-            memcpy(&sensorData->imu_data_2.gyro.x, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_2.gyro.y, &uartState->RxBuffer[rxIndex], sizeof(float));
-            rxIndex += sizeof(float);
-            memcpy(&sensorData->imu_data_2.gyro.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+            // 加速度
+//            memcpy(&sensorData->imu_data_2.acc.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+//            rxIndex += sizeof(float);
+//            memcpy(&sensorData->imu_data_2.acc.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+//            rxIndex += sizeof(float);
+//            memcpy(&sensorData->imu_data_2.acc.z, &uartState->RxBuffer[rxIndex], sizeof(float));
+//            rxIndex += sizeof(float);
+//
+//            // 角速度
+//            memcpy(&sensorData->imu_data_2.gyro.x, &uartState->RxBuffer[rxIndex], sizeof(float));
+//            rxIndex += sizeof(float);
+//            memcpy(&sensorData->imu_data_2.gyro.y, &uartState->RxBuffer[rxIndex], sizeof(float));
+//            rxIndex += sizeof(float);
+//            memcpy(&sensorData->imu_data_2.gyro.z, &uartState->RxBuffer[rxIndex], sizeof(float));
 
             // 设置数据就绪标志
             sensorData->imu_data_1.dataReady = true;
@@ -388,7 +721,6 @@ void ProcessResponse(RS485_State *state) {
 
             // 释放互斥量
             unlock_system_state();
-
 
 //    		printf("G1:%.3f,%.3f,%.3f;A1:%.3f,%.3f,%.3f;T1:%.2f \t",
 //    				g_system_state.rs485_sensor_data_1.imu_data_1.gyro.x, g_system_state.rs485_sensor_data_1.imu_data_1.gyro.y, g_system_state.rs485_sensor_data_1.imu_data_1.gyro.z,
@@ -404,6 +736,7 @@ void ProcessResponse(RS485_State *state) {
 
             break;
         }
+
         case CMD_GET_ALL_AUTO_START: {
         	 // 解析设备状态
 			RS485_Sensor_DeviceStatus *deviceStatus;
@@ -459,10 +792,9 @@ void ProcessResponse(RS485_State *state) {
 			}
 
 			// 更新初始化状态
-			state->initialized = deviceStatus->imu_1_init &&
-								deviceStatus->imu_2_init &&
-								deviceStatus->mt6835_cs1_init;
-
+			state->initialized = deviceStatus->imu_1_init
+								 && deviceStatus->imu_2_init;
+//								 && deviceStatus->mt6835_cs1_init;
 
         	break;
         }
@@ -497,16 +829,13 @@ bool RS485_QueryStatus(RS485_State *state) {
  * @return 获取是否成功
  */
 bool RS485_GetAllData(RS485_State *state) {
-    RS485_SendCommand(state, CMD_GET_ALL_DATA);
-
-    if (RS485_WaitForResponse(state, 4)) { // 缩短超时时间，保证100Hz的采集速率
-        //printf("ProcessResponse\r\n");
-    	ProcessResponse(state);
-        return true;
-    }
-    printf("WaitForResponse Failed %d\r\n", state->sensorId);
-
-    return false;
+	RS485_SendCommand(state, CMD_GET_ALL_DATA);
+	if (RS485_WaitForResponse(state, 4)) ProcessResponse(state);
+	else {
+//		printf("[RS485] sensor %d Wait For Response Failed: imu_00\r\n", state->sensorId);
+		return false;
+	}
+    return true;
 }
 
 
@@ -526,12 +855,14 @@ bool RS485_InitializeSensors(void) {
         //sprintf(g_device_status.error_message, "RS485 sensor 1 not responding");
         success = false;
     }
+    else rs485_sensor_1.initialized = true;
 
     // 查询RS485传感器2状态
     if (!RS485_QueryStatus(&rs485_sensor_2)) {
         //sprintf(g_device_status.error_message, "RS485 sensor 2 not responding");
         success = false;
     }
+    else rs485_sensor_2.initialized = true;
 
     // 检查是否所有设备都已初始化
     if (success && rs485_sensor_1.initialized && rs485_sensor_2.initialized) {

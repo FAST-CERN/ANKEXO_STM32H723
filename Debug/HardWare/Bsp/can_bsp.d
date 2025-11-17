@@ -38,7 +38,10 @@ HardWare/Bsp/can_bsp.o: ../HardWare/Bsp/can_bsp.c \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- ../Core/Inc/fdcan.h ../Core/Inc/main.h
+ ../Core/Inc/fdcan.h ../Core/Inc/main.h \
+ D:/WORK/2025-07-REW/Code/temp/KEXO_STM32H723/HardWare/MC/dm_motor_ctrl.h \
+ D:/WORK/2025-07-REW/Code/temp/KEXO_STM32H723/HardWare/MC/dm_motor_drv.h \
+ ../HardWare/BSP/can_bsp.h
 ../HardWare/Bsp/can_bsp.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
@@ -81,3 +84,6 @@ HardWare/Bsp/can_bsp.o: ../HardWare/Bsp/can_bsp.c \
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
 ../Core/Inc/fdcan.h:
 ../Core/Inc/main.h:
+D:/WORK/2025-07-REW/Code/temp/KEXO_STM32H723/HardWare/MC/dm_motor_ctrl.h:
+D:/WORK/2025-07-REW/Code/temp/KEXO_STM32H723/HardWare/MC/dm_motor_drv.h:
+../HardWare/BSP/can_bsp.h:

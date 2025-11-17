@@ -8,8 +8,6 @@ extern "C" {
 #include "usart.h"
 #include <stdbool.h>
 
-
-
 // Buffer size for UART reception
 #define UART_RX_BUFFER_SIZE 1024
 

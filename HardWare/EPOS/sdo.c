@@ -27,7 +27,7 @@ void SDO_Write(Epos* epos, Uint16 Index, Uint8 SubIndex, Uint32 param)
         // 关闭FDCAN接收中断
         fdcan_disable_interrupt(&hfdcan1);
 			
-			  // 清空FIFO0邮箱，防止旧消息干扰
+		// 清空FIFO0邮箱，防止旧消息干扰
         fdcan_clear_rx_fifo(&hfdcan1);
         
         // 准备发送数据

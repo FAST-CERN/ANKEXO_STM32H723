@@ -1,7 +1,7 @@
-../HardWare/Bsp/BMI088/BMI088Middleware.c:16:6:BMI088_GPIO_init	4	static
-../HardWare/Bsp/BMI088/BMI088Middleware.c:28:6:BMI088_com_init	4	static
-../HardWare/Bsp/BMI088/BMI088Middleware.c:41:6:BMI088_delay_ms	16	static
-../HardWare/Bsp/BMI088/BMI088Middleware.c:56:6:BMI088_delay_us	24	static,ignoring_inline_asm
+../HardWare/Bsp/BMI088/BMI088Middleware.c:16:6:BMI088_GPIO_init	0	static
+../HardWare/Bsp/BMI088/BMI088Middleware.c:28:6:BMI088_com_init	0	static
+../HardWare/Bsp/BMI088/BMI088Middleware.c:56:6:BMI088_delay_us	0	static,ignoring_inline_asm
+../HardWare/Bsp/BMI088/BMI088Middleware.c:41:6:BMI088_delay_ms	8	static
 ../HardWare/Bsp/BMI088/BMI088Middleware.c:102:6:BMI088_ACCEL_NS_L	8	static
 ../HardWare/Bsp/BMI088/BMI088Middleware.c:114:6:BMI088_ACCEL_NS_H	8	static
 ../HardWare/Bsp/BMI088/BMI088Middleware.c:126:6:BMI088_GYRO_NS_L	8	static

@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (12.3.rel1)
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
 ################################################################################
 
 C++M_SRCS := 
@@ -41,14 +41,18 @@ SUBDIRS := \
 Core/Src \
 Core/Startup \
 Drivers/STM32H7xx_HAL_Driver/Src \
+HardWare/APP/IMU \
+HardWare/APP/PID \
 HardWare/APP \
 HardWare/BLE \
 HardWare/BUZZ \
 HardWare/Bsp/BMI088 \
+HardWare/Bsp/ICM20948 \
 HardWare/Bsp \
 HardWare/EPOS \
 HardWare/FAN \
 HardWare/LED \
+HardWare/MC \
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 \
 Middlewares/Third_Party/FreeRTOS/Source \
 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F \

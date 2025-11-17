@@ -167,7 +167,7 @@ uint8_t BMI088_init(void)
     error |= bmi088_accel_init();
     error |= bmi088_gyro_init();
 
-    printf("%d\r\n",error);
+//    printf("%d\r\n",error);
 
     return error;
 }

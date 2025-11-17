@@ -203,7 +203,11 @@ typedef struct {
     Acc_t acc;
     Gryo_t gyro;
     Meg_t mag;
+    float temp;
+    float inc_angle;
+
     Quaternion_t quat;
+
     bool dataReady;
 } IMU_Data_t;
 
@@ -232,7 +236,7 @@ typedef struct {
 //Kexo Control mode
 typedef enum {
     KEXO_MODE_NONE = 0,       // No mode
-    KEXO_MODE_INIT,           // Idle mode
+    KEXO_MODE_INIT,           // Init mode
     KEXO_MODE_IDLE,           // Idle mode
     KEXO_MODE_CONINTING,      // Training mode
     KEXO_MODE_SITTOSTAND,     // Sitting mode
@@ -281,6 +285,7 @@ typedef struct {
 
     //BMI088 PCB IMU
     IMU_Data_t bmi088_imu_data;
+    IMU_Data_t icm20948_imu_data;
 
     // System mutex for accessing shared data
     osMutexId_t system_mutex;                  // Mutex for accessing system data
