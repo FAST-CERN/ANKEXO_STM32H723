@@ -35,19 +35,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  15 .debug_macro  000465fc  00000000  00000000  000c64db  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_line   00061e79  00000000  00000000  0010cad7  2**0
+ 16 .debug_line   00061e51  00000000  00000000  0010cad7  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_str    00192f62  00000000  00000000  0016e950  2**0
+ 17 .debug_str    00192f60  00000000  00000000  0016e928  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .comment      00000076  00000000  00000000  003018b2  2**0
+ 18 .comment      00000076  00000000  00000000  00301888  2**0
                   CONTENTS, READONLY
- 19 .debug_frame  0000aa08  00000000  00000000  00301928  2**2
+ 19 .debug_frame  0000aa08  00000000  00000000  00301900  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_line_str 0000005b  00000000  00000000  0030c330  2**0
+ 20 .debug_line_str 00000059  00000000  00000000  0030c308  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_loc    000067ad  00000000  00000000  0030c38b  2**0
+ 21 .debug_loc    000067ad  00000000  00000000  0030c361  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_ranges 00000980  00000000  00000000  00312b38  2**0
+ 22 .debug_ranges 00000980  00000000  00000000  00312b0e  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -1173,7 +1173,6 @@ void StartS485Task(void *argument)
  8000b14:	f884 50f0 	strb.w	r5, [r4, #240]	@ 0xf0
 			g_system_state.rs485_sensor_data_2.imu_data_2.dataReady = false;
  8000b18:	f884 5130 	strb.w	r5, [r4, #304]	@ 0x130
-
 
 			// RS485 Sensor 2 imu-1
 			float inc_angle;

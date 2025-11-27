@@ -1,11 +1,11 @@
 Archive member included to satisfy reference by file (symbol)
 
-D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
                               ./HardWare/APP/IMU/imu_mahony.o (arm_cos_f32)
-D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
-                              D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (arm_abs_q15)
-D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
-                              D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (sqrt_initial_lut_q15)
+D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                              D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (arm_abs_q15)
+D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                              D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (sqrt_initial_lut_q15)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libstdc++_nano.a(del_opv.o)
                               ./HardWare/APP/IMU/imu_icm20948_app.o (operator delete[](void*))
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libstdc++_nano.a(new_opv.o)
@@ -35,25 +35,29 @@ E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.m
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_nan.o)
                               E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_acos.o) (nan)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-exp.o)
-                              D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (exp)
+                              D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (exp)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-exp_data.o)
                               E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-exp.o) (__exp_data)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-math_err.o)
                               E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-exp.o) (__math_uflow)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-log.o)
-                              D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (log)
+                              D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (log)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-log_data.o)
                               E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-log.o) (__log_data)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sf_nan.o)
                               E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-wf_acos.o) (nanf)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sf_exp.o)
-                              D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (expf)
+                              D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (expf)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sf_exp2_data.o)
                               E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sf_exp.o) (__exp2f_data)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sf_log.o)
-                              D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (logf)
+                              D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (logf)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sf_log_data.o)
                               E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sf_log.o) (__logf_data)
+E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sinf.o)
+                              ./HardWare/MC/exoske_gait_ctrl.o (sinf)
+E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sincosf_data.o)
+                              E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sinf.o) (__inv_pio4)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-math_errf.o)
                               E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sf_exp.o) (__math_uflowf)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-ef_sqrt.o)
@@ -206,8 +210,10 @@ E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.m
                               E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-assert.o) (fiprintf)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-msizer.o)
                               E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-reallocr.o) (_malloc_usable_size_r)
+E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+dp/hard\libgcc.a(_arm_addsubdf3.o)
+                              E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sinf.o) (__aeabi_l2d)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_ldivmod.o)
-                              D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (__aeabi_ldivmod)
+                              D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj) (__aeabi_ldivmod)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
                               ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o (__aeabi_uldivmod)
 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
@@ -1369,7 +1375,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x5f2 ./Core/Src/memorymap.o
  .debug_macro   0x00000000       0xdc ./Core/Src/memorymap.o
  .debug_line    0x00000000      0xa4d ./Core/Src/memorymap.o
- .debug_str     0x00000000   0x168977 ./Core/Src/memorymap.o
+ .debug_str     0x00000000   0x168975 ./Core/Src/memorymap.o
  .comment       0x00000000       0x44 ./Core/Src/memorymap.o
  .ARM.attributes
                 0x00000000       0x32 ./Core/Src/memorymap.o
@@ -3827,7 +3833,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xa6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
  .debug_macro   0x00000000      0x5f2 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
  .debug_line    0x00000000     0x1423 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
- .debug_str     0x00000000   0x168b91 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
+ .debug_str     0x00000000   0x168b8f ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
  .comment       0x00000000       0x44 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
  .debug_frame   0x00000000      0x104 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
  .ARM.attributes
@@ -3999,7 +4005,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xa6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
  .debug_macro   0x00000000      0x5f2 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
  .debug_line    0x00000000     0x1169 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
- .debug_str     0x00000000   0x1688e7 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
+ .debug_str     0x00000000   0x1688e5 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
  .comment       0x00000000       0x44 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
  .debug_frame   0x00000000      0x100 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
  .ARM.attributes
@@ -4469,7 +4475,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xa6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
  .debug_macro   0x00000000      0x5f2 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
  .debug_line    0x00000000     0x10d6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
- .debug_str     0x00000000   0x168a34 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
+ .debug_str     0x00000000   0x168a32 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
  .comment       0x00000000       0x44 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
  .debug_frame   0x00000000      0x148 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
  .ARM.attributes
@@ -4683,7 +4689,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xa6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
  .debug_macro   0x00000000      0x5f2 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
  .debug_line    0x00000000     0x14ac ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
- .debug_str     0x00000000   0x168d4b ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
+ .debug_str     0x00000000   0x168d49 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
  .comment       0x00000000       0x44 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
  .debug_frame   0x00000000      0x254 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
  .ARM.attributes
@@ -5006,7 +5012,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xa6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o
  .debug_macro   0x00000000      0x5f2 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o
  .debug_line    0x00000000      0xbf1 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o
- .debug_str     0x00000000   0x168709 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o
+ .debug_str     0x00000000   0x168707 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o
  .comment       0x00000000       0x44 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o
  .debug_frame   0x00000000       0xc8 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o
  .ARM.attributes
@@ -5628,7 +5634,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xa6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
  .debug_macro   0x00000000      0x5f2 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
  .debug_line    0x00000000     0x1cf6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
- .debug_str     0x00000000   0x168dfe ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
+ .debug_str     0x00000000   0x168dfc ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
  .comment       0x00000000       0x44 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
  .debug_frame   0x00000000      0x260 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
  .ARM.attributes
@@ -5816,7 +5822,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xa6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
  .debug_macro   0x00000000      0x5f2 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
  .debug_line    0x00000000      0xcc5 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
- .debug_str     0x00000000   0x168a48 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
+ .debug_str     0x00000000   0x168a46 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
  .comment       0x00000000       0x44 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
  .debug_frame   0x00000000      0x128 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
  .ARM.attributes
@@ -6736,7 +6742,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xa6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.o
  .debug_macro   0x00000000      0x5f2 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.o
  .debug_line    0x00000000      0xc01 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.o
- .debug_str     0x00000000   0x168c51 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.o
+ .debug_str     0x00000000   0x168c4f ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.o
  .comment       0x00000000       0x44 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.o
  .debug_frame   0x00000000       0x64 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.o
  .ARM.attributes
@@ -8493,7 +8499,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x11 ./HardWare/APP/IMU/sensor_data.o
  .debug_macro   0x00000000      0xbe0 ./HardWare/APP/IMU/sensor_data.o
  .debug_line    0x00000000       0x44 ./HardWare/APP/IMU/sensor_data.o
- .debug_str     0x00000000     0x3336 ./HardWare/APP/IMU/sensor_data.o
+ .debug_str     0x00000000     0x3334 ./HardWare/APP/IMU/sensor_data.o
  .comment       0x00000000       0x44 ./HardWare/APP/IMU/sensor_data.o
  .ARM.attributes
                 0x00000000       0x32 ./HardWare/APP/IMU/sensor_data.o
@@ -9363,7 +9369,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x3d ./HardWare/BUZZ/BUZZ.o
  .debug_macro   0x00000000       0x35 ./HardWare/BUZZ/BUZZ.o
  .debug_line    0x00000000      0xbc2 ./HardWare/BUZZ/BUZZ.o
- .debug_str     0x00000000   0x169b24 ./HardWare/BUZZ/BUZZ.o
+ .debug_str     0x00000000   0x169b22 ./HardWare/BUZZ/BUZZ.o
  .comment       0x00000000       0x44 ./HardWare/BUZZ/BUZZ.o
  .debug_frame   0x00000000       0x68 ./HardWare/BUZZ/BUZZ.o
  .ARM.attributes
@@ -10680,7 +10686,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xdc ./HardWare/Bsp/bsp_user_key.o
  .debug_macro   0x00000000       0x10 ./HardWare/Bsp/bsp_user_key.o
  .debug_line    0x00000000      0xa79 ./HardWare/Bsp/bsp_user_key.o
- .debug_str     0x00000000   0x1689f3 ./HardWare/Bsp/bsp_user_key.o
+ .debug_str     0x00000000   0x1689f1 ./HardWare/Bsp/bsp_user_key.o
  .comment       0x00000000       0x44 ./HardWare/Bsp/bsp_user_key.o
  .debug_frame   0x00000000       0x20 ./HardWare/Bsp/bsp_user_key.o
  .ARM.attributes
@@ -11162,7 +11168,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./HardWare/EPOS/HW_epos.o
  .debug_macro   0x00000000       0x2e ./HardWare/EPOS/HW_epos.o
  .debug_line    0x00000000     0x10ac ./HardWare/EPOS/HW_epos.o
- .debug_str     0x00000000   0x16ee37 ./HardWare/EPOS/HW_epos.o
+ .debug_str     0x00000000   0x16ee35 ./HardWare/EPOS/HW_epos.o
  .comment       0x00000000       0x44 ./HardWare/EPOS/HW_epos.o
  .debug_frame   0x00000000      0x298 ./HardWare/EPOS/HW_epos.o
  .ARM.attributes
@@ -11382,7 +11388,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x74 ./HardWare/EPOS/epos.o
  .debug_macro   0x00000000       0xdd ./HardWare/EPOS/epos.o
  .debug_line    0x00000000      0xd67 ./HardWare/EPOS/epos.o
- .debug_str     0x00000000   0x16e9c1 ./HardWare/EPOS/epos.o
+ .debug_str     0x00000000   0x16e9bf ./HardWare/EPOS/epos.o
  .comment       0x00000000       0x44 ./HardWare/EPOS/epos.o
  .debug_frame   0x00000000       0xa4 ./HardWare/EPOS/epos.o
  .ARM.attributes
@@ -11595,7 +11601,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x74 ./HardWare/EPOS/sdo.o
  .debug_macro   0x00000000       0xdd ./HardWare/EPOS/sdo.o
  .debug_line    0x00000000      0xfad ./HardWare/EPOS/sdo.o
- .debug_str     0x00000000   0x16ea21 ./HardWare/EPOS/sdo.o
+ .debug_str     0x00000000   0x16ea1f ./HardWare/EPOS/sdo.o
  .comment       0x00000000       0x44 ./HardWare/EPOS/sdo.o
  .debug_frame   0x00000000       0x60 ./HardWare/EPOS/sdo.o
  .ARM.attributes
@@ -12057,7 +12063,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x22 ./HardWare/LED/WS2812B_HAL.o
  .debug_macro   0x00000000       0x1c ./HardWare/LED/WS2812B_HAL.o
  .debug_line    0x00000000      0xc86 ./HardWare/LED/WS2812B_HAL.o
- .debug_str     0x00000000   0x169257 ./HardWare/LED/WS2812B_HAL.o
+ .debug_str     0x00000000   0x169255 ./HardWare/LED/WS2812B_HAL.o
  .comment       0x00000000       0x44 ./HardWare/LED/WS2812B_HAL.o
  .debug_frame   0x00000000       0x68 ./HardWare/LED/WS2812B_HAL.o
  .ARM.attributes
@@ -12385,6 +12391,125 @@ Discarded input sections
  .debug_macro   0x00000000       0xdc ./HardWare/MC/dm_motor_drv.o
  .debug_macro   0x00000000       0x10 ./HardWare/MC/dm_motor_drv.o
  .debug_macro   0x00000000       0x34 ./HardWare/MC/dm_motor_drv.o
+ .group         0x00000000        0x8 ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .group         0x00000000        0xc ./HardWare/MC/exoske_gait_ctrl.o
+ .text          0x00000000        0x0 ./HardWare/MC/exoske_gait_ctrl.o
+ .data          0x00000000        0x0 ./HardWare/MC/exoske_gait_ctrl.o
+ .bss           0x00000000        0x0 ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl13exoske_handleC2Ev
+                0x00000000       0x30 ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoskeC2Ev
+                0x00000000       0xd4 ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske15exoske_fsm_lockEh
+                0x00000000       0x2a ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske19exoske_fsm_preswingEh
+                0x00000000       0x30 ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske15exoske_fsm_safeEh
+                0x00000000        0xe ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske16exoske_fsm_swingEh
+                0x00000000       0x3c ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske16exoske_fsm_relaxEh
+                0x00000000       0x24 ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske17exoske_fsm_updateEv
+                0x00000000       0xa2 ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske16exoske_timer_cbkEv
+                0x00000000        0x8 ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske15exoske_ctrl_cbkEv
+                0x00000000        0x2 ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske16exoske_ctrl_lockEh
+                0x00000000       0x28 ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske16exoske_ctrl_safeEh
+                0x00000000       0x28 ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske20exoske_ctrl_preswingEh
+                0x00000000       0x28 ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske15exoske_tor_compEh
+                0x00000000       0xa0 ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske17exoske_ctrl_swingEh
+                0x00000000       0x3e ./HardWare/MC/exoske_gait_ctrl.o
+ .text._ZN11exoske_ctrl6exoske17exoske_ctrl_relaxEh
+                0x00000000       0x38 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_info    0x00000000     0x11ac ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_abbrev  0x00000000      0x367 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_loclists
+                0x00000000      0x2dc ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_aranges
+                0x00000000       0x98 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_rnglists
+                0x00000000       0x70 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000      0x1bd ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000      0xbe0 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000      0x1f2 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x10 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000      0x409 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x18 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x22 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x5b ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x29 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x94 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x43 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x34 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000      0x197 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x57 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000      0x38c ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x16 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x4a ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x34 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x10 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x58 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x8e ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x16 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000      0x185 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000      0x194 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x10 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x16 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x3c ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x16 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x29 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x10 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000      0x3c7 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x1c ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000      0x103 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000       0x6a ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_macro   0x00000000      0x1df ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_line    0x00000000      0xfe6 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_str     0x00000000     0xad9d ./HardWare/MC/exoske_gait_ctrl.o
+ .comment       0x00000000       0x44 ./HardWare/MC/exoske_gait_ctrl.o
+ .debug_frame   0x00000000      0x174 ./HardWare/MC/exoske_gait_ctrl.o
+ .ARM.attributes
+                0x00000000       0x32 ./HardWare/MC/exoske_gait_ctrl.o
  .group         0x00000000        0xc ./Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o
  .group         0x00000000        0xc ./Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o
  .group         0x00000000        0xc ./Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o
@@ -12766,7 +12891,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xaa ./Middlewares/Third_Party/FreeRTOS/Source/croutine.o
  .debug_macro   0x00000000       0x43 ./Middlewares/Third_Party/FreeRTOS/Source/croutine.o
  .debug_line    0x00000000      0x76b ./Middlewares/Third_Party/FreeRTOS/Source/croutine.o
- .debug_str     0x00000000     0xb6e3 ./Middlewares/Third_Party/FreeRTOS/Source/croutine.o
+ .debug_str     0x00000000     0xb6e1 ./Middlewares/Third_Party/FreeRTOS/Source/croutine.o
  .comment       0x00000000       0x44 ./Middlewares/Third_Party/FreeRTOS/Source/croutine.o
  .ARM.attributes
                 0x00000000       0x32 ./Middlewares/Third_Party/FreeRTOS/Source/croutine.o
@@ -12885,7 +13010,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xaa ./Middlewares/Third_Party/FreeRTOS/Source/event_groups.o
  .debug_macro   0x00000000       0x91 ./Middlewares/Third_Party/FreeRTOS/Source/event_groups.o
  .debug_line    0x00000000      0xf9a ./Middlewares/Third_Party/FreeRTOS/Source/event_groups.o
- .debug_str     0x00000000     0xc157 ./Middlewares/Third_Party/FreeRTOS/Source/event_groups.o
+ .debug_str     0x00000000     0xc155 ./Middlewares/Third_Party/FreeRTOS/Source/event_groups.o
  .comment       0x00000000       0x44 ./Middlewares/Third_Party/FreeRTOS/Source/event_groups.o
  .debug_frame   0x00000000      0x1b8 ./Middlewares/Third_Party/FreeRTOS/Source/event_groups.o
  .ARM.attributes
@@ -13222,7 +13347,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xaa ./Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o
  .debug_macro   0x00000000       0x18 ./Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o
  .debug_line    0x00000000     0x18a3 ./Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o
- .debug_str     0x00000000     0xc229 ./Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o
+ .debug_str     0x00000000     0xc227 ./Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o
  .comment       0x00000000       0x44 ./Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o
  .debug_frame   0x00000000      0x380 ./Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.o
  .ARM.attributes
@@ -13627,549 +13752,549 @@ Discarded input sections
  .debug_macro   0x00000000      0x4bf ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
  .debug_macro   0x00000000       0xb5 ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
  .debug_macro   0x00000000       0xaa ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
- .text          0x00000000        0x0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
- .data          0x00000000        0x0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
- .bss           0x00000000        0x0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+ .text          0x00000000        0x0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+ .data          0x00000000        0x0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+ .bss           0x00000000        0x0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_cos_q15
-                0x00000000       0x48 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000       0x48 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_cos_q31
-                0x00000000       0x44 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000       0x44 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_sin_q15
-                0x00000000       0x40 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000       0x40 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_sin_q31
-                0x00000000       0x48 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000       0x48 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_sqrt_q31
-                0x00000000       0xd8 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000       0xd8 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_sqrt_q15
-                0x00000000       0xc8 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000       0xc8 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_vexp_f32
-                0x00000000       0x20 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000       0x20 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_vexp_f64
-                0x00000000       0x20 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000       0x20 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_vlog_f32
-                0x00000000       0x20 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000       0x20 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_vlog_f64
-                0x00000000       0x20 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000       0x20 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_divide_q15
-                0x00000000       0x74 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000       0x74 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_divide_q31
-                0x00000000       0x9c D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000       0x9c D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_vlog_q31
-                0x00000000       0x70 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000       0x70 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_vlog_q15
-                0x00000000      0x134 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000      0x134 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_atan2_q31
-                0x00000000      0xd04 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000000      0xd04 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .text.arm_atan2_q15
-                0x00000000      0x54c D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
- .text          0x00000000        0x0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
- .data          0x00000000        0x0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
- .bss           0x00000000        0x0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000      0x54c D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+ .text          0x00000000        0x0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+ .data          0x00000000        0x0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+ .bss           0x00000000        0x0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_abs_f32
-                0x00000000       0x88 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x88 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_abs_f64
-                0x00000000       0x14 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x14 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_abs_q15
-                0x00000000       0xdc D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xdc D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_abs_q31
-                0x00000000       0xc0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xc0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_abs_q7
-                0x00000000       0xd8 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xd8 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_add_f32
-                0x00000000       0xb0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xb0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_add_f64
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_add_q15
-                0x00000000       0x88 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x88 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_add_q31
-                0x00000000       0xa4 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xa4 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_add_q7
-                0x00000000       0x6c D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x6c D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_and_u16
-                0x00000000       0x78 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x78 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_and_u32
-                0x00000000       0xa8 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xa8 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_and_u8
-                0x00000000       0xa4 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xa4 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_dot_prod_f32
-                0x00000000       0x94 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x94 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_dot_prod_f64
-                0x00000000       0x28 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x28 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_dot_prod_q15
-                0x00000000       0x7c D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x7c D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_dot_prod_q31
-                0x00000000       0xf8 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xf8 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_dot_prod_q7
-                0x00000000       0x88 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x88 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_mult_f32
-                0x00000000       0xb0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xb0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_mult_f64
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_mult_q15
-                0x00000000       0xb8 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xb8 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_mult_q31
-                0x00000000       0xd8 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xd8 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_mult_q7
-                0x00000000       0xd0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xd0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_negate_f32
-                0x00000000       0x88 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x88 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_negate_f64
-                0x00000000       0x14 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x14 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_negate_q15
-                0x00000000       0x8c D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x8c D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_negate_q31
-                0x00000000       0x80 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x80 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_negate_q7
-                0x00000000       0x5c D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x5c D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_not_u16
-                0x00000000       0x58 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x58 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_not_u32
-                0x00000000       0x6c D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x6c D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_not_u8
-                0x00000000       0x80 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x80 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_offset_f32
-                0x00000000       0x88 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x88 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_offset_f64
-                0x00000000       0x14 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x14 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_offset_q15
-                0x00000000       0x70 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x70 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_offset_q31
-                0x00000000       0x7c D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x7c D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_offset_q7
-                0x00000000       0x6c D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x6c D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_or_u16
-                0x00000000       0x78 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x78 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_or_u32
-                0x00000000       0xa8 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xa8 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_or_u8
-                0x00000000       0xa4 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xa4 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_scale_f32
-                0x00000000       0x88 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x88 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_scale_f64
-                0x00000000       0x14 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x14 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_scale_q15
-                0x00000000       0xcc D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xcc D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_scale_q31
-                0x00000000      0x1c4 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000      0x1c4 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_scale_q7
-                0x00000000       0xd0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xd0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_shift_q15
-                0x00000000      0x128 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000      0x128 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_shift_q31
-                0x00000000      0x1b8 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000      0x1b8 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_shift_q7
-                0x00000000      0x140 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000      0x140 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_sub_f32
-                0x00000000       0xb0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xb0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_sub_f64
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_sub_q15
-                0x00000000       0x88 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x88 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_sub_q31
-                0x00000000       0xa4 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xa4 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_sub_q7
-                0x00000000       0x70 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x70 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_xor_u16
-                0x00000000       0x78 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x78 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_xor_u32
-                0x00000000       0xa8 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xa8 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_xor_u8
-                0x00000000       0xa4 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0xa4 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_clip_f32
-                0x00000000       0x3c D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x3c D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_clip_q31
-                0x00000000       0x3c D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x3c D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_clip_q15
-                0x00000000       0x38 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x38 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .text.arm_clip_q7
-                0x00000000       0x3c D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
- .debug_info    0x00000000     0x4689 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
- .debug_abbrev  0x00000000      0x227 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
- .debug_loc     0x00000000     0xb281 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000       0x3c D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+ .debug_info    0x00000000     0x4689 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+ .debug_abbrev  0x00000000      0x227 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+ .debug_loc     0x00000000     0xb281 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .debug_aranges
-                0x00000000      0x1f0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
- .debug_ranges  0x00000000     0x1040 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
- .debug_line    0x00000000     0x41ba D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
- .debug_str     0x00000000      0x6d5 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
- .comment       0x00000000       0x34 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
- .debug_frame   0x00000000      0x728 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+                0x00000000      0x1f0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+ .debug_ranges  0x00000000     0x1040 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+ .debug_line    0x00000000     0x41ba D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+ .debug_str     0x00000000      0x6d5 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+ .comment       0x00000000       0x34 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+ .debug_frame   0x00000000      0x728 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
  .ARM.attributes
-                0x00000000       0x32 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
- .text          0x00000000        0x0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
- .data          0x00000000        0x0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
- .bss           0x00000000        0x0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x32 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(BasicMathFunctions.c.obj)
+ .text          0x00000000        0x0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+ .data          0x00000000        0x0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+ .bss           0x00000000        0x0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.WeightsQ15_128
-                0x00000000      0x200 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x200 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.WeightsQ15_2048
-                0x00000000     0x2000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x2000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.WeightsQ15_512
-                0x00000000      0x800 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x800 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.WeightsQ15_8192
-                0x00000000     0x8000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x8000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.WeightsQ31_128
-                0x00000000      0x400 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x400 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.WeightsQ31_2048
-                0x00000000     0x4000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x4000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.WeightsQ31_512
-                0x00000000     0x1000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x1000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.WeightsQ31_8192
-                0x00000000    0x10000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000    0x10000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.Weights_128
-                0x00000000      0x400 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x400 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.Weights_2048
-                0x00000000     0x4000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x4000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.Weights_512
-                0x00000000     0x1000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x1000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.Weights_8192
-                0x00000000    0x10000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000    0x10000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable1024
-                0x00000000      0xe10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0xe10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable128
-                0x00000000      0x1a0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x1a0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable16
-                0x00000000       0x28 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x28 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable2048
-                0x00000000     0x1dc0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x1dc0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable256
-                0x00000000      0x370 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x370 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable32
-                0x00000000       0x60 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x60 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable4096
-                0x00000000     0x1f80 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x1f80 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable512
-                0x00000000      0x380 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x380 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable64
-                0x00000000       0x70 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x70 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTableF64_1024
-                0x00000000      0x7c0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x7c0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTableF64_128
-                0x00000000       0xe0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0xe0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTableF64_16
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTableF64_2048
-                0x00000000      0xf80 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0xf80 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTableF64_256
-                0x00000000      0x1e0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x1e0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTableF64_32
-                0x00000000       0x30 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x30 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTableF64_4096
-                0x00000000     0x1f80 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x1f80 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTableF64_512
-                0x00000000      0x3c0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x3c0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTableF64_64
-                0x00000000       0x70 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x70 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable_fixed_1024
-                0x00000000      0x7c0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x7c0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable_fixed_128
-                0x00000000       0xe0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0xe0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable_fixed_16
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable_fixed_2048
-                0x00000000      0xf80 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0xf80 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable_fixed_256
-                0x00000000      0x1e0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x1e0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable_fixed_32
-                0x00000000       0x30 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x30 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable_fixed_4096
-                0x00000000     0x1f80 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x1f80 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable_fixed_512
-                0x00000000      0x3c0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x3c0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevIndexTable_fixed_64
-                0x00000000       0x70 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x70 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armBitRevTable
-                0x00000000      0x800 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x800 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armRecipTableQ15
-                0x00000000       0x80 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x80 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.armRecipTableQ31
-                0x00000000      0x100 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x100 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f32_len1024
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f32_len128
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f32_len16
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f32_len2048
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f32_len256
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f32_len32
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f32_len4096
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f32_len512
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f32_len64
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f64_len1024
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f64_len128
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f64_len16
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f64_len2048
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f64_len256
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f64_len32
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f64_len4096
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f64_len512
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_f64_len64
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q15_len1024
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q15_len128
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q15_len16
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q15_len2048
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q15_len256
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q15_len32
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q15_len4096
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q15_len512
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q15_len64
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q31_len1024
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q31_len128
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q31_len16
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q31_len2048
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q31_len256
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q31_len32
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q31_len4096
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q31_len512
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_cfft_sR_q31_len64
-                0x00000000       0x10 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x10 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f32_len1024
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f32_len128
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f32_len2048
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f32_len256
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f32_len32
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f32_len4096
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f32_len512
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f32_len64
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f64_len1024
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f64_len128
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f64_len2048
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f64_len256
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f64_len32
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f64_len4096
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f64_len512
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_fast_sR_f64_len64
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q15_len1024
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q15_len128
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q15_len2048
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q15_len256
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q15_len32
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q15_len4096
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q15_len512
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q15_len64
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q15_len8192
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q31_len1024
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q31_len128
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q31_len2048
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q31_len256
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q31_len32
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q31_len4096
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q31_len512
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q31_len64
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.arm_rfft_sR_q31_len8192
-                0x00000000       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.cos_factorsQ15_128
-                0x00000000      0x100 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x100 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.cos_factorsQ15_2048
-                0x00000000     0x1000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x1000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.cos_factorsQ15_512
-                0x00000000      0x400 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x400 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.cos_factorsQ15_8192
-                0x00000000     0x4000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x4000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.cos_factorsQ31_128
-                0x00000000      0x200 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x200 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.cos_factorsQ31_2048
-                0x00000000     0x2000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x2000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.cos_factorsQ31_512
-                0x00000000      0x800 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x800 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.cos_factorsQ31_8192
-                0x00000000     0x8000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x8000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.cos_factors_128
-                0x00000000      0x200 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x200 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.cos_factors_2048
-                0x00000000     0x2000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x2000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.cos_factors_512
-                0x00000000      0x800 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x800 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.cos_factors_8192
-                0x00000000     0x8000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x8000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.realCoefA
-                0x00000000     0x8000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x8000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.realCoefAQ15
-                0x00000000     0x4000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x4000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.realCoefAQ31
-                0x00000000     0x8000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x8000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.realCoefB
-                0x00000000     0x8000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x8000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.realCoefBQ15
-                0x00000000     0x4000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x4000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.realCoefBQ31
-                0x00000000     0x8000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x8000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.sinTable_q15
-                0x00000000      0x402 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x402 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.sinTable_q31
-                0x00000000      0x804 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x804 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.sqrt_initial_lut_q15
-                0x00000000       0x20 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x20 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.sqrt_initial_lut_q31
-                0x00000000       0x80 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x80 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_1024
-                0x00000000     0x4000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x4000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_128
-                0x00000000      0x800 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x800 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_16
-                0x00000000      0x100 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x100 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_2048
-                0x00000000     0x8000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x8000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_256
-                0x00000000     0x1000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x1000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_32
-                0x00000000      0x200 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x200 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_4096
-                0x00000000    0x10000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000    0x10000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_512
-                0x00000000     0x2000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x2000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_64
-                0x00000000      0x400 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x400 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_rfft_1024
-                0x00000000     0x2000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x2000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_rfft_128
-                0x00000000      0x400 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x400 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_rfft_2048
-                0x00000000     0x4000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x4000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_rfft_256
-                0x00000000      0x800 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x800 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_rfft_32
-                0x00000000      0x100 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x100 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_rfft_4096
-                0x00000000     0x8000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x8000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_rfft_512
-                0x00000000     0x1000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x1000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoefF64_rfft_64
-                0x00000000      0x200 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x200 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_1024
-                0x00000000     0x2000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x2000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_1024_q15
-                0x00000000      0xc00 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0xc00 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_1024_q31
-                0x00000000     0x1800 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x1800 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_128
-                0x00000000      0x400 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x400 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_128_q15
-                0x00000000      0x180 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x180 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_128_q31
-                0x00000000      0x300 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x300 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_16
-                0x00000000       0x80 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x80 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_16_q15
-                0x00000000       0x30 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x30 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_16_q31
-                0x00000000       0x60 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x60 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_2048
-                0x00000000     0x4000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x4000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_2048_q15
-                0x00000000     0x1800 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x1800 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_2048_q31
-                0x00000000     0x3000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x3000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_256
-                0x00000000      0x800 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x800 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_256_q15
-                0x00000000      0x300 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x300 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_256_q31
-                0x00000000      0x600 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x600 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_32
-                0x00000000      0x100 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x100 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_32_q15
-                0x00000000       0x60 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x60 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_32_q31
-                0x00000000       0xc0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0xc0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_4096
-                0x00000000     0x8000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x8000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_4096_q15
-                0x00000000     0x3000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x3000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_4096_q31
-                0x00000000     0x6000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x6000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_512
-                0x00000000     0x1000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x1000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_512_q15
-                0x00000000      0x600 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x600 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_512_q31
-                0x00000000      0xc00 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0xc00 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_64
-                0x00000000      0x200 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x200 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_64_q15
-                0x00000000       0xc0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0xc0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_64_q31
-                0x00000000      0x180 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x180 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_rfft_1024
-                0x00000000     0x1000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x1000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_rfft_128
-                0x00000000      0x200 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x200 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_rfft_2048
-                0x00000000     0x2000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x2000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_rfft_256
-                0x00000000      0x400 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x400 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_rfft_32
-                0x00000000       0x80 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000       0x80 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_rfft_4096
-                0x00000000     0x4000 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000     0x4000 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_rfft_512
-                0x00000000      0x800 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x800 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .rodata.twiddleCoef_rfft_64
-                0x00000000      0x100 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000000      0x100 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .text          0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libstdc++_nano.a(del_opv.o)
  .data          0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libstdc++_nano.a(del_opv.o)
  .bss           0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libstdc++_nano.a(del_opv.o)
@@ -14302,6 +14427,24 @@ Discarded input sections
                 0x00000000      0x120 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sf_log_data.o)
  .ARM.attributes
                 0x00000000       0x32 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sf_log_data.o)
+ .text          0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sinf.o)
+ .data          0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sinf.o)
+ .bss           0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sinf.o)
+ .text.sinf_poly
+                0x00000000       0x54 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sinf.o)
+ .text.sinf     0x00000000      0x130 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sinf.o)
+ .debug_frame   0x00000000       0x58 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sinf.o)
+ .ARM.attributes
+                0x00000000       0x32 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sinf.o)
+ .text          0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sincosf_data.o)
+ .data          0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sincosf_data.o)
+ .bss           0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sincosf_data.o)
+ .rodata.__inv_pio4
+                0x00000000       0x60 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sincosf_data.o)
+ .rodata.__sincosf_table
+                0x00000000       0xe0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sincosf_data.o)
+ .ARM.attributes
+                0x00000000       0x32 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-sincosf_data.o)
  .text          0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-math_errf.o)
  .data          0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-math_errf.o)
  .bss           0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-math_errf.o)
@@ -14673,6 +14816,12 @@ Discarded input sections
  .text          0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-msizer.o)
  .data          0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-msizer.o)
  .bss           0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-msizer.o)
+ .text          0x00000000      0x378 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+dp/hard\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+dp/hard\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+dp/hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00000000       0xac E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+dp/hard\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000000       0x20 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+dp/hard\libgcc.a(_arm_addsubdf3.o)
  .text          0x00000000       0xa0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_ldivmod.o)
  .data          0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_ldivmod.o)
  .bss           0x00000000        0x0 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_ldivmod.o)
@@ -14783,6 +14932,7 @@ LOAD ./HardWare/LED/WS2812B.o
 LOAD ./HardWare/LED/WS2812B_HAL.o
 LOAD ./HardWare/MC/dm_motor_ctrl.o
 LOAD ./HardWare/MC/dm_motor_drv.o
+LOAD ./HardWare/MC/exoske_gait_ctrl.o
 LOAD ./Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o
 LOAD ./Middlewares/Third_Party/FreeRTOS/Source/croutine.o
 LOAD ./Middlewares/Third_Party/FreeRTOS/Source/event_groups.o
@@ -14793,7 +14943,7 @@ LOAD ./Middlewares/Third_Party/FreeRTOS/Source/tasks.o
 LOAD ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
 LOAD ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
 LOAD ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
-LOAD D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a
+LOAD D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a
 START GROUP
 LOAD E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libstdc++_nano.a
 LOAD E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libsupc++_nano.a
@@ -16355,13 +16505,13 @@ LOAD E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.
                 0x0801184c       0x7c ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
                 0x0801184c                vPortFree
  .text.arm_cos_f32
-                0x080118c8       0x90 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x080118c8       0x90 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
                 0x080118c8                arm_cos_f32
  .text.arm_sin_f32
-                0x08011958       0x8c D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x08011958       0x8c D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
                 0x08011958                arm_sin_f32
  .text.arm_atan2_f32
-                0x080119e4      0x354 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x080119e4      0x354 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
                 0x080119e4                arm_atan2_f32
  .text._ZdaPv   0x08011d38        0x4 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libstdc++_nano.a(del_opv.o)
                 0x08011d38                operator delete[](void*)
@@ -16832,7 +16982,7 @@ LOAD E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.
                 0x08017063        0x8 ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
  *fill*         0x08017063        0x1 
  .rodata.sinTable_f32
-                0x08017064      0x804 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x08017064      0x804 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
                 0x08017064                sinTable_f32
  .rodata.acos.str1.1
                 0x08017868      0x18a E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_acos.o)
@@ -17394,9 +17544,9 @@ LOAD E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.
  .ARM.attributes
                 0x00000bf9       0x32 ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
  .ARM.attributes
-                0x00000c2b       0x32 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00000c2b       0x32 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .ARM.attributes
-                0x00000c5d       0x37 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00000c5d       0x37 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
  .ARM.attributes
                 0x00000c94       0x32 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libstdc++_nano.a(del_opv.o)
  .ARM.attributes
@@ -17641,8 +17791,8 @@ LOAD E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.
  .debug_info    0x0006b1fa     0x21e0 ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
  .debug_info    0x0006d3da      0x55e ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
  .debug_info    0x0006d938      0x597 ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_info    0x0006decf     0x2b33 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
- .debug_info    0x00070a02     0x1d46 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+ .debug_info    0x0006decf     0x2b33 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+ .debug_info    0x00070a02     0x1d46 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
 
 .debug_abbrev   0x00000000     0xb35f
  .debug_abbrev  0x00000000      0x247 ./Core/Src/adc.o
@@ -17706,8 +17856,8 @@ LOAD E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.
  .debug_abbrev  0x0000a659      0x399 ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
  .debug_abbrev  0x0000a9f2      0x295 ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
  .debug_abbrev  0x0000ac87      0x265 ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_abbrev  0x0000aeec      0x34b D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
- .debug_abbrev  0x0000b237      0x128 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+ .debug_abbrev  0x0000aeec      0x34b D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+ .debug_abbrev  0x0000b237      0x128 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
 
 .debug_loclists
                 0x00000000    0x29af8
@@ -17946,9 +18096,9 @@ LOAD E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.
  .debug_aranges
                 0x000030f8       0x58 ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
  .debug_aranges
-                0x00003150       0xb0 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+                0x00003150       0xb0 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .debug_aranges
-                0x00003200       0x18 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+                0x00003200       0x18 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
 
 .debug_rnglists
                 0x00000000     0x2b0b
@@ -18331,136 +18481,136 @@ LOAD E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.
  .debug_macro   0x000461f6      0x246 ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
  .debug_macro   0x0004643c      0x1c0 ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
 
-.debug_line     0x00000000    0x61e79
+.debug_line     0x00000000    0x61e51
  .debug_line    0x00000000      0xcbf ./Core/Src/adc.o
  .debug_line    0x00000cbf      0xa66 ./Core/Src/dma.o
  .debug_line    0x00001725      0xc32 ./Core/Src/fdcan.o
- .debug_line    0x00002357     0x10a8 ./Core/Src/freertos.o
- .debug_line    0x000033ff      0xb3c ./Core/Src/gpio.o
- .debug_line    0x00003f3b      0xcbc ./Core/Src/i2c.o
- .debug_line    0x00004bf7      0xe86 ./Core/Src/main.o
- .debug_line    0x00005a7d      0xcee ./Core/Src/spi.o
- .debug_line    0x0000676b      0xa64 ./Core/Src/stm32h7xx_hal_msp.o
- .debug_line    0x000071cf      0xb1a ./Core/Src/stm32h7xx_hal_timebase_tim.o
- .debug_line    0x00007ce9      0xc44 ./Core/Src/stm32h7xx_it.o
- .debug_line    0x0000892d      0xa16 ./Core/Src/syscalls.o
- .debug_line    0x00009343      0x69e ./Core/Src/sysmem.o
- .debug_line    0x000099e1      0xcf6 ./Core/Src/system_stm32h7xx.o
- .debug_line    0x0000a6d7     0x1047 ./Core/Src/tim.o
- .debug_line    0x0000b71e     0x10db ./Core/Src/usart.o
- .debug_line    0x0000c7f9     0x1037 ./Core/Src/usart_server.o
- .debug_line    0x0000d830       0x7b ./Core/Startup/startup_stm32h723vgtx.o
- .debug_line    0x0000d8ab     0x11c8 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
- .debug_line    0x0000ea73     0x31d4 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.o
- .debug_line    0x00011c47     0x2dd1 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.o
- .debug_line    0x00014a18     0x10c6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o
- .debug_line    0x00015ade     0x2c84 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o
- .debug_line    0x00018762     0x3c17 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.o
- .debug_line    0x0001c379      0xfac ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
- .debug_line    0x0001d325     0x5949 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o
- .debug_line    0x00022c6e      0xc70 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o
- .debug_line    0x000238de     0x128e ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o
- .debug_line    0x00024b6c     0x1b3a ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o
- .debug_line    0x000266a6     0x26b9 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
- .debug_line    0x00028d5f     0x2f8e ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.o
- .debug_line    0x0002bced     0x53a5 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o
- .debug_line    0x00031092     0x2716 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o
- .debug_line    0x000337a8     0x59f5 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o
- .debug_line    0x0003919d     0x12c1 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o
- .debug_line    0x0003a45e     0x1155 ./HardWare/APP/IMU/imu_bmi088_app.o
- .debug_line    0x0003b5b3     0x1f77 ./HardWare/APP/IMU/imu_icm20948_app.o
- .debug_line    0x0003d52a     0x1a90 ./HardWare/APP/IMU/imu_mahony.o
- .debug_line    0x0003efba     0x164d ./HardWare/APP/IMU/imu_task.o
- .debug_line    0x00040607      0x65b ./HardWare/APP/PID/pid.o
- .debug_line    0x00040c62      0xf1c ./HardWare/APP/global_param.o
- .debug_line    0x00041b7e     0x13cd ./HardWare/APP/motor_task.o
- .debug_line    0x00042f4b     0x15bf ./HardWare/BLE/ble_server.o
- .debug_line    0x0004450a      0xb93 ./HardWare/Bsp/BMI088/BMI088Middleware.o
- .debug_line    0x0004509d      0xebd ./HardWare/Bsp/BMI088/BMI088driver.o
- .debug_line    0x00045f5a     0x2ad7 ./HardWare/Bsp/ICM20948/ICM_20948.o
- .debug_line    0x00048a31     0x170f ./HardWare/Bsp/ICM20948/ICM_20948_APP.o
- .debug_line    0x0004a140     0x2e53 ./HardWare/Bsp/ICM20948/ICM_20948_C.o
- .debug_line    0x0004cf93     0x180d ./HardWare/Bsp/S485_master.o
- .debug_line    0x0004e7a0      0xfd5 ./HardWare/Bsp/can_bsp.o
- .debug_line    0x0004f775      0xa77 ./HardWare/FAN/fan.o
- .debug_line    0x000501ec      0xef1 ./HardWare/LED/WS2812B.o
- .debug_line    0x000510dd     0x1342 ./HardWare/MC/dm_motor_ctrl.o
- .debug_line    0x0005241f     0x1164 ./HardWare/MC/dm_motor_drv.o
- .debug_line    0x00053583     0x3400 ./Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o
- .debug_line    0x00056983      0x937 ./Middlewares/Third_Party/FreeRTOS/Source/list.o
- .debug_line    0x000572ba     0x2215 ./Middlewares/Third_Party/FreeRTOS/Source/queue.o
- .debug_line    0x000594cf     0x2d3a ./Middlewares/Third_Party/FreeRTOS/Source/tasks.o
- .debug_line    0x0005c209     0x133d ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
- .debug_line    0x0005d546      0xbbd ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
- .debug_line    0x0005e103      0xc7f ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_line    0x0005ed82     0x2f78 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
- .debug_line    0x00061cfa      0x17f D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+ .debug_line    0x00002357     0x10a4 ./Core/Src/freertos.o
+ .debug_line    0x000033fb      0xb3c ./Core/Src/gpio.o
+ .debug_line    0x00003f37      0xcbc ./Core/Src/i2c.o
+ .debug_line    0x00004bf3      0xe86 ./Core/Src/main.o
+ .debug_line    0x00005a79      0xcee ./Core/Src/spi.o
+ .debug_line    0x00006767      0xa64 ./Core/Src/stm32h7xx_hal_msp.o
+ .debug_line    0x000071cb      0xb1a ./Core/Src/stm32h7xx_hal_timebase_tim.o
+ .debug_line    0x00007ce5      0xc44 ./Core/Src/stm32h7xx_it.o
+ .debug_line    0x00008929      0xa16 ./Core/Src/syscalls.o
+ .debug_line    0x0000933f      0x69e ./Core/Src/sysmem.o
+ .debug_line    0x000099dd      0xcf6 ./Core/Src/system_stm32h7xx.o
+ .debug_line    0x0000a6d3     0x1047 ./Core/Src/tim.o
+ .debug_line    0x0000b71a     0x10db ./Core/Src/usart.o
+ .debug_line    0x0000c7f5     0x1037 ./Core/Src/usart_server.o
+ .debug_line    0x0000d82c       0x7b ./Core/Startup/startup_stm32h723vgtx.o
+ .debug_line    0x0000d8a7     0x11c8 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
+ .debug_line    0x0000ea6f     0x31d4 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.o
+ .debug_line    0x00011c43     0x2dd1 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.o
+ .debug_line    0x00014a14     0x10c6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o
+ .debug_line    0x00015ada     0x2c84 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o
+ .debug_line    0x0001875e     0x3c17 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.o
+ .debug_line    0x0001c375      0xfac ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
+ .debug_line    0x0001d321     0x5949 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o
+ .debug_line    0x00022c6a      0xc70 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o
+ .debug_line    0x000238da     0x128e ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o
+ .debug_line    0x00024b68     0x1b3a ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o
+ .debug_line    0x000266a2     0x26b9 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
+ .debug_line    0x00028d5b     0x2f8e ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.o
+ .debug_line    0x0002bce9     0x53a5 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o
+ .debug_line    0x0003108e     0x2716 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o
+ .debug_line    0x000337a4     0x59f5 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o
+ .debug_line    0x00039199     0x12c1 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o
+ .debug_line    0x0003a45a     0x114d ./HardWare/APP/IMU/imu_bmi088_app.o
+ .debug_line    0x0003b5a7     0x1f71 ./HardWare/APP/IMU/imu_icm20948_app.o
+ .debug_line    0x0003d518     0x1a8a ./HardWare/APP/IMU/imu_mahony.o
+ .debug_line    0x0003efa2     0x1645 ./HardWare/APP/IMU/imu_task.o
+ .debug_line    0x000405e7      0x65b ./HardWare/APP/PID/pid.o
+ .debug_line    0x00040c42      0xf1c ./HardWare/APP/global_param.o
+ .debug_line    0x00041b5e     0x13cd ./HardWare/APP/motor_task.o
+ .debug_line    0x00042f2b     0x15bf ./HardWare/BLE/ble_server.o
+ .debug_line    0x000444ea      0xb93 ./HardWare/Bsp/BMI088/BMI088Middleware.o
+ .debug_line    0x0004507d      0xebd ./HardWare/Bsp/BMI088/BMI088driver.o
+ .debug_line    0x00045f3a     0x2ad5 ./HardWare/Bsp/ICM20948/ICM_20948.o
+ .debug_line    0x00048a0f     0x170d ./HardWare/Bsp/ICM20948/ICM_20948_APP.o
+ .debug_line    0x0004a11c     0x2e51 ./HardWare/Bsp/ICM20948/ICM_20948_C.o
+ .debug_line    0x0004cf6d     0x180d ./HardWare/Bsp/S485_master.o
+ .debug_line    0x0004e77a      0xfd3 ./HardWare/Bsp/can_bsp.o
+ .debug_line    0x0004f74d      0xa77 ./HardWare/FAN/fan.o
+ .debug_line    0x000501c4      0xef1 ./HardWare/LED/WS2812B.o
+ .debug_line    0x000510b5     0x1342 ./HardWare/MC/dm_motor_ctrl.o
+ .debug_line    0x000523f7     0x1164 ./HardWare/MC/dm_motor_drv.o
+ .debug_line    0x0005355b     0x3400 ./Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o
+ .debug_line    0x0005695b      0x937 ./Middlewares/Third_Party/FreeRTOS/Source/list.o
+ .debug_line    0x00057292     0x2215 ./Middlewares/Third_Party/FreeRTOS/Source/queue.o
+ .debug_line    0x000594a7     0x2d3a ./Middlewares/Third_Party/FreeRTOS/Source/tasks.o
+ .debug_line    0x0005c1e1     0x133d ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
+ .debug_line    0x0005d51e      0xbbd ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
+ .debug_line    0x0005e0db      0xc7f ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_line    0x0005ed5a     0x2f78 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+ .debug_line    0x00061cd2      0x17f D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
 
-.debug_str      0x00000000   0x192f62
- .debug_str     0x00000000   0x192f62 ./Core/Src/adc.o
-                             0x1697b1 (size before relaxing)
- .debug_str     0x00192f62   0x1693c5 ./Core/Src/dma.o
- .debug_str     0x00192f62   0x169d33 ./Core/Src/fdcan.o
- .debug_str     0x00192f62   0x170616 ./Core/Src/freertos.o
- .debug_str     0x00192f62   0x1694b1 ./Core/Src/gpio.o
- .debug_str     0x00192f62   0x16962e ./Core/Src/i2c.o
- .debug_str     0x00192f62   0x16efbf ./Core/Src/main.o
- .debug_str     0x00192f62   0x169e98 ./Core/Src/spi.o
- .debug_str     0x00192f62   0x1693b5 ./Core/Src/stm32h7xx_hal_msp.o
- .debug_str     0x00192f62   0x169756 ./Core/Src/stm32h7xx_hal_timebase_tim.o
- .debug_str     0x00192f62   0x169bc3 ./Core/Src/stm32h7xx_it.o
- .debug_str     0x00192f62     0x9a6f ./Core/Src/syscalls.o
- .debug_str     0x00192f62     0x780d ./Core/Src/sysmem.o
- .debug_str     0x00192f62   0x168a77 ./Core/Src/system_stm32h7xx.o
- .debug_str     0x00192f62   0x169788 ./Core/Src/tim.o
- .debug_str     0x00192f62   0x169ece ./Core/Src/usart.o
- .debug_str     0x00192f62   0x16e5d9 ./Core/Src/usart_server.o
- .debug_str     0x00192f62       0x77 ./Core/Startup/startup_stm32h723vgtx.o
- .debug_str     0x00192f62   0x169ac2 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
- .debug_str     0x00192f62   0x169ae7 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.o
- .debug_str     0x00192f62   0x169a07 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.o
- .debug_str     0x00192f62   0x1693dc ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o
- .debug_str     0x00192f62   0x1691ed ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o
- .debug_str     0x00192f62   0x16a7d0 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.o
- .debug_str     0x00192f62   0x168a83 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
- .debug_str     0x00192f62   0x169b22 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o
- .debug_str     0x00192f62   0x168ec8 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o
- .debug_str     0x00192f62   0x168e8b ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o
- .debug_str     0x00192f62   0x168e06 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o
- .debug_str     0x00192f62   0x16931e ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
- .debug_str     0x00192f62   0x169189 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.o
- .debug_str     0x00192f62   0x169c04 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o
- .debug_str     0x00192f62   0x1695b1 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o
- .debug_str     0x00192f62   0x1699b7 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o
- .debug_str     0x00192f62   0x168f66 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o
- .debug_str     0x00192f62   0x1700e4 ./HardWare/APP/IMU/imu_bmi088_app.o
- .debug_str     0x00192f62   0x17668b ./HardWare/APP/IMU/imu_icm20948_app.o
- .debug_str     0x00192f62     0xa41a ./HardWare/APP/IMU/imu_mahony.o
- .debug_str     0x00192f62   0x174818 ./HardWare/APP/IMU/imu_task.o
- .debug_str     0x00192f62     0x4284 ./HardWare/APP/PID/pid.o
- .debug_str     0x00192f62   0x16dfc1 ./HardWare/APP/global_param.o
- .debug_str     0x00192f62   0x16ee41 ./HardWare/APP/motor_task.o
- .debug_str     0x00192f62   0x16f042 ./HardWare/BLE/ble_server.o
- .debug_str     0x00192f62   0x169149 ./HardWare/Bsp/BMI088/BMI088Middleware.o
- .debug_str     0x00192f62   0x16aa34 ./HardWare/Bsp/BMI088/BMI088driver.o
- .debug_str     0x00192f62   0x171768 ./HardWare/Bsp/ICM20948/ICM_20948.o
- .debug_str     0x00192f62   0x174d24 ./HardWare/Bsp/ICM20948/ICM_20948_APP.o
- .debug_str     0x00192f62     0x98a8 ./HardWare/Bsp/ICM20948/ICM_20948_C.o
- .debug_str     0x00192f62   0x16ebc2 ./HardWare/Bsp/S485_master.o
- .debug_str     0x00192f62   0x169a08 ./HardWare/Bsp/can_bsp.o
- .debug_str     0x00192f62   0x169060 ./HardWare/FAN/fan.o
- .debug_str     0x00192f62   0x168ca0 ./HardWare/LED/WS2812B.o
- .debug_str     0x00192f62   0x169b17 ./HardWare/MC/dm_motor_ctrl.o
- .debug_str     0x00192f62   0x16930d ./HardWare/MC/dm_motor_drv.o
- .debug_str     0x00192f62   0x170977 ./Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o
- .debug_str     0x00192f62     0xacbe ./Middlewares/Third_Party/FreeRTOS/Source/list.o
- .debug_str     0x00192f62     0xc80f ./Middlewares/Third_Party/FreeRTOS/Source/queue.o
- .debug_str     0x00192f62     0xd614 ./Middlewares/Third_Party/FreeRTOS/Source/tasks.o
- .debug_str     0x00192f62     0xd04f ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
- .debug_str     0x00192f62     0xb9fc ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
- .debug_str     0x00192f62     0xb600 ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_str     0x00192f62      0x610 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
- .debug_str     0x00192f62     0x1348 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+.debug_str      0x00000000   0x192f60
+ .debug_str     0x00000000   0x192f60 ./Core/Src/adc.o
+                             0x1697af (size before relaxing)
+ .debug_str     0x00192f60   0x1693c3 ./Core/Src/dma.o
+ .debug_str     0x00192f60   0x169d31 ./Core/Src/fdcan.o
+ .debug_str     0x00192f60   0x170614 ./Core/Src/freertos.o
+ .debug_str     0x00192f60   0x1694af ./Core/Src/gpio.o
+ .debug_str     0x00192f60   0x16962c ./Core/Src/i2c.o
+ .debug_str     0x00192f60   0x16efbd ./Core/Src/main.o
+ .debug_str     0x00192f60   0x169e96 ./Core/Src/spi.o
+ .debug_str     0x00192f60   0x1693b3 ./Core/Src/stm32h7xx_hal_msp.o
+ .debug_str     0x00192f60   0x169754 ./Core/Src/stm32h7xx_hal_timebase_tim.o
+ .debug_str     0x00192f60   0x169bc1 ./Core/Src/stm32h7xx_it.o
+ .debug_str     0x00192f60     0x9a6d ./Core/Src/syscalls.o
+ .debug_str     0x00192f60     0x780b ./Core/Src/sysmem.o
+ .debug_str     0x00192f60   0x168a75 ./Core/Src/system_stm32h7xx.o
+ .debug_str     0x00192f60   0x169786 ./Core/Src/tim.o
+ .debug_str     0x00192f60   0x169ecc ./Core/Src/usart.o
+ .debug_str     0x00192f60   0x16e5d7 ./Core/Src/usart_server.o
+ .debug_str     0x00192f60       0x75 ./Core/Startup/startup_stm32h723vgtx.o
+ .debug_str     0x00192f60   0x169ac0 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
+ .debug_str     0x00192f60   0x169ae5 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.o
+ .debug_str     0x00192f60   0x169a05 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.o
+ .debug_str     0x00192f60   0x1693da ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o
+ .debug_str     0x00192f60   0x1691eb ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o
+ .debug_str     0x00192f60   0x16a7ce ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.o
+ .debug_str     0x00192f60   0x168a81 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
+ .debug_str     0x00192f60   0x169b20 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o
+ .debug_str     0x00192f60   0x168ec6 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o
+ .debug_str     0x00192f60   0x168e89 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o
+ .debug_str     0x00192f60   0x168e04 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o
+ .debug_str     0x00192f60   0x16931c ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
+ .debug_str     0x00192f60   0x169187 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.o
+ .debug_str     0x00192f60   0x169c02 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o
+ .debug_str     0x00192f60   0x1695af ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o
+ .debug_str     0x00192f60   0x1699b5 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o
+ .debug_str     0x00192f60   0x168f64 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o
+ .debug_str     0x00192f60   0x1700e2 ./HardWare/APP/IMU/imu_bmi088_app.o
+ .debug_str     0x00192f60   0x176689 ./HardWare/APP/IMU/imu_icm20948_app.o
+ .debug_str     0x00192f60     0xa418 ./HardWare/APP/IMU/imu_mahony.o
+ .debug_str     0x00192f60   0x174816 ./HardWare/APP/IMU/imu_task.o
+ .debug_str     0x00192f60     0x4282 ./HardWare/APP/PID/pid.o
+ .debug_str     0x00192f60   0x16dfbf ./HardWare/APP/global_param.o
+ .debug_str     0x00192f60   0x16ee3f ./HardWare/APP/motor_task.o
+ .debug_str     0x00192f60   0x16f040 ./HardWare/BLE/ble_server.o
+ .debug_str     0x00192f60   0x169147 ./HardWare/Bsp/BMI088/BMI088Middleware.o
+ .debug_str     0x00192f60   0x16aa32 ./HardWare/Bsp/BMI088/BMI088driver.o
+ .debug_str     0x00192f60   0x171766 ./HardWare/Bsp/ICM20948/ICM_20948.o
+ .debug_str     0x00192f60   0x174d22 ./HardWare/Bsp/ICM20948/ICM_20948_APP.o
+ .debug_str     0x00192f60     0x98a6 ./HardWare/Bsp/ICM20948/ICM_20948_C.o
+ .debug_str     0x00192f60   0x16ebc0 ./HardWare/Bsp/S485_master.o
+ .debug_str     0x00192f60   0x169a06 ./HardWare/Bsp/can_bsp.o
+ .debug_str     0x00192f60   0x16905e ./HardWare/FAN/fan.o
+ .debug_str     0x00192f60   0x168c9e ./HardWare/LED/WS2812B.o
+ .debug_str     0x00192f60   0x169b15 ./HardWare/MC/dm_motor_ctrl.o
+ .debug_str     0x00192f60   0x16930b ./HardWare/MC/dm_motor_drv.o
+ .debug_str     0x00192f60   0x170975 ./Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o
+ .debug_str     0x00192f60     0xacbc ./Middlewares/Third_Party/FreeRTOS/Source/list.o
+ .debug_str     0x00192f60     0xc80d ./Middlewares/Third_Party/FreeRTOS/Source/queue.o
+ .debug_str     0x00192f60     0xd612 ./Middlewares/Third_Party/FreeRTOS/Source/tasks.o
+ .debug_str     0x00192f60     0xd04d ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
+ .debug_str     0x00192f60     0xb9fa ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
+ .debug_str     0x00192f60     0xb5fe ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_str     0x00192f60      0x610 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+ .debug_str     0x00192f60     0x1348 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
 
 .comment        0x00000000       0x76
  .comment       0x00000000       0x76 ./Core/Src/adc.o
@@ -18524,8 +18674,8 @@ LOAD E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.
  .comment       0x00000076       0x44 ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
  .comment       0x00000076       0x44 ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
  .comment       0x00000076       0x44 ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
- .comment       0x00000076       0x34 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
- .comment       0x00000076       0x34 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
+ .comment       0x00000076       0x34 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+ .comment       0x00000076       0x34 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(CommonTables.c.obj)
 
 .debug_frame    0x00000000     0xaa08
  .debug_frame   0x00000000       0x6c ./Core/Src/adc.o
@@ -18588,7 +18738,7 @@ LOAD E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.
  .debug_frame   0x000089ac      0x30c ./Middlewares/Third_Party/FreeRTOS/Source/timers.o
  .debug_frame   0x00008cb8      0x110 ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o
  .debug_frame   0x00008dc8       0xd0 ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
- .debug_frame   0x00008e98      0x278 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+ .debug_frame   0x00008e98      0x278 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
  .debug_frame   0x00009110       0x20 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libstdc++_nano.a(del_opv.o)
  .debug_frame   0x00009130       0x20 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libstdc++_nano.a(new_opv.o)
  .debug_frame   0x00009150       0x20 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libstdc++_nano.a(del_op.o)
@@ -18673,12 +18823,12 @@ LOAD E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.
  .debug_frame   0x0000a9d4       0x34 E:/Program_files/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
 
 .debug_line_str
-                0x00000000       0x5b
+                0x00000000       0x59
  .debug_line_str
-                0x00000000       0x5b ./Core/Startup/startup_stm32h723vgtx.o
+                0x00000000       0x59 ./Core/Startup/startup_stm32h723vgtx.o
 
 .debug_loc      0x00000000     0x67ad
- .debug_loc     0x00000000     0x67ad D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+ .debug_loc     0x00000000     0x67ad D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
 
 .debug_ranges   0x00000000      0x980
- .debug_ranges  0x00000000      0x980 D:\WORK\2025-07-REW\Code\temp\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)
+ .debug_ranges  0x00000000      0x980 D:\WORK\2025-11-Exoske\CODE\KEXO_STM32H723\Drivers\CMSIS\DSP\Lib\libarm_cortexM7lfdp_math.a(FastMathFunctions.c.obj)

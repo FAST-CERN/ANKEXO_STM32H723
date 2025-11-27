@@ -68,6 +68,7 @@
 "./HardWare/LED/WS2812B_HAL.o"
 "./HardWare/MC/dm_motor_ctrl.o"
 "./HardWare/MC/dm_motor_drv.o"
+"./HardWare/MC/exoske_gait_ctrl.o"
 "./Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o"
 "./Middlewares/Third_Party/FreeRTOS/Source/croutine.o"
 "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.o"
